@@ -1,9 +1,13 @@
-!sc29:: {
+altHankaku() {
     send("{f5}")
+    Sleep(500)
+    Click , 413, 1641
+    Sleep(100)
+    Click , 376, 795
 }
-!vk19:: {
-    send("{f5}")
-}
+
+!sc29:: altHankaku()
+!vk19:: altHankaku()
 !1:: {
     send("+!{o}") ;タスク
 }

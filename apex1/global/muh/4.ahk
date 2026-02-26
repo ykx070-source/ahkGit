@@ -5,6 +5,7 @@ sc7B & z:: {
     send("^{enter}")
 }
 sc7B & x:: {
+    Run A_AhkPath "\..\WindowSpy.ahk"
 }
 sc7B & c:: {
 }

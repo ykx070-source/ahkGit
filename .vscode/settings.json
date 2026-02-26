@@ -2,11 +2,11 @@
   "favorites.showCurrentBranchGroup": false,
   "favorites.resources": [
     {
-      "filePath": "link.ahk",
+      "filePath": "apex1\\local\\pptx\\pptx.ahk",
       "group": "Default"
     },
     {
-      "filePath": "apex1\\local\\pptx\\pptx.ahk",
+      "filePath": "apex1\\global\\global.ahk",
       "group": "Default"
     }
   ]
