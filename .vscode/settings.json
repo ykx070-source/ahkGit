@@ -1,5 +1,11 @@
 {
-  "favorites.showCurrentBranchGroup": false
+  "favorites.showCurrentBranchGroup": false,
+  "favorites.resources": [
+    {
+      "filePath": "link.ahk",
+      "group": "Default"
+    }
+  ]
   // "editor.cursorWidth": 1,
   // "editor.cursorStyle": "line"
 }

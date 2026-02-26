@@ -4,3 +4,4 @@
 #Include .\chatgpt\chatgpt.ahk
 #Include .\edge\edge.ahk
 #Include .\vrew\vrew.ahk
+#Include .\pptx\pptx.ahk
