@@ -4,6 +4,10 @@
     {
       "filePath": "link.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\pptx\\pptx.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,
