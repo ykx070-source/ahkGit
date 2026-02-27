@@ -2,19 +2,23 @@ sc7B & sc2A:: {
     send("{tab}")
 }
 sc7B & z:: {
-    send("^{enter}")
+    send("#{5}")
+    ; send("^{enter}")
 }
 sc7B & x:: {
-    Run A_AhkPath "\..\WindowSpy.ahk"
+    send("#{6}")
 }
 sc7B & c:: {
-    WinActivate("ahk_exe ScreenPaint.exe")
-    Sleep(100)
-    send("^+{l}")
+    send("#{7}")
+    ; WinActivate("ahk_exe ScreenPaint.exe")
+    ; Sleep(100)
+    ; send("^+{l}")
 }
 sc7B & v:: {
+    send("#{8}")
 }
 sc7B & b:: {
+    Run A_AhkPath "\..\WindowSpy.ahk"
 }
 
 sc7B & n:: {

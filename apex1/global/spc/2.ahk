@@ -14,7 +14,10 @@ sc39 & r:: {
     send("#{1}")
 }
 sc39 & t:: {
-    send("#{5}")
+    run "C:\Users\yl228\Documents\fix\pen.lnk"
+    ; WinActivate("ahk_exe ScreenPaint.exe")
+    Sleep(100)
+    send("^+{l}")
 }
 
 sc39 & y:: {
