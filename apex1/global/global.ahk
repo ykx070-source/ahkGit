@@ -1,5 +1,5 @@
 ; alone
-#Include .\alone\alone.ahk
+#Include .\alone\basic.ahk
 ; spc
 #Include .\spc\1.ahk
 #Include .\spc\2.ahk

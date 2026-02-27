@@ -8,6 +8,9 @@ sc7B & x:: {
     Run A_AhkPath "\..\WindowSpy.ahk"
 }
 sc7B & c:: {
+    WinActivate("ahk_exe ScreenPaint.exe")
+    Sleep(100)
+    send("^+{l}")
 }
 sc7B & v:: {
 }

@@ -1,9 +1,8 @@
 altHankaku() {
-    send("{f5}")
-    Sleep(500)
-    Click , 413, 1641
+    run "C:\Users\yl228\Documents\fix\pen.lnk"
+    ; WinActivate("ahk_exe ScreenPaint.exe")
     Sleep(100)
-    Click , 376, 795
+    send("^+{l}")
 }
 
 !sc29:: altHankaku()

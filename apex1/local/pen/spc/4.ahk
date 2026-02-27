@@ -14,6 +14,8 @@ sc39 & v:: {
     send("^{v}")
 }
 sc39 & b:: {
+    send("^+{d}")
+    send("!{esc}")
 }
 
 sc39 & n:: {

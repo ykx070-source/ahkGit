@@ -8,6 +8,14 @@
     {
       "filePath": "apex1\\global\\global.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\local.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\pen\\pen.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,
