@@ -1,4 +1,4 @@
-sc2A & LAlt:: {
+sc2A & sc38:: {
     global timerEnabled
     timerEnabled := !timerEnabled
     if (timerEnabled)

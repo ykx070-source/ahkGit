@@ -3,6 +3,7 @@ global prevImeState := -1
 global prevBgColor := ""
 global penMode := false
 global prevWidth := 0
+global timerEnabled := false
 
 SetTimer(guiIme, 100)
 

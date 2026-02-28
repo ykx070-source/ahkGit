@@ -2,10 +2,6 @@
   "favorites.showCurrentBranchGroup": false,
   "favorites.resources": [
     {
-      "filePath": "apex1\\local\\pptx\\pptx.ahk",
-      "group": "Default"
-    },
-    {
       "filePath": "apex1\\global\\global.ahk",
       "group": "Default"
     },
@@ -27,6 +23,14 @@
     },
     {
       "filePath": "apex1\\global\\alone\\num.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\power\\power.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "common\\code\\code.ahk",
       "group": "Default"
     }
   ]
