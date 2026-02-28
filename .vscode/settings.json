@@ -32,6 +32,10 @@
     {
       "filePath": "common\\code\\code.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\hot\\hot.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,

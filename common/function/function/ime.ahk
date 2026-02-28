@@ -6,9 +6,14 @@ global timerEnabled := false
 
 SetTimer(guiIme, 100)
 guiIme() {
-    global myGui, prevImeState, penMode, prevBgColor
+    global myGui, prevImeState, penMode, prevBgColor, hotBoo
 
-    bgColor := penMode ? "FF0000" : "FFFFAA"
+    if penMode
+        bgColor := "FF0000"  ; 赤
+    else if hotBoo
+        bgColor := "0000FF"  ; 青
+    else
+        bgColor := "FFFFAA"  ; 黄色
 
     try {
         vcurrentwindow := WinGetID("A")
@@ -18,7 +23,7 @@ guiIme() {
         if (A_ComputerName = "s") {
             xPos := (ImeState = 0) ? 2675 : 2300
         } else if (A_ComputerName = "d") {
-            xPos := (ImeState = 0) ? 1850 : 1700
+            xPos := (ImeState = 0) ? 1890 : 1700
         } else {
             xPos := 0
         }

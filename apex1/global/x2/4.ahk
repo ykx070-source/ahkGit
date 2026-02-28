@@ -11,9 +11,11 @@ XButton2 & x:: {
 }
 
 XButton2 & c:: {
+    fxC()
 }
 
 XButton2 & v:: {
+    fxV()
 }
 
 XButton2 & b:: {

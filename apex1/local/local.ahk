@@ -7,3 +7,4 @@
 #Include .\power\power.ahk
 #Include .\pen\pen.ahk
 #Include .\exp\exp.ahk
+#Include .\hot\hot.ahk

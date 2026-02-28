@@ -1,5 +1,4 @@
 hankakuAltPower() {
-
     Send("!wm")  ;slideMaster
 }
 

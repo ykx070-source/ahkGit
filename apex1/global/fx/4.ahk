@@ -7,13 +7,13 @@ fxZ() {
 }
 
 fxX() {
-    send("^{End}")
 }
 
 fxC() {
 }
 
 fxV() {
+    send("^{End}")
 }
 
 fxB() {
