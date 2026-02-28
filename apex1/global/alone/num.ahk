@@ -1,0 +1,20 @@
+; n1
+$NumLock:: send("{2}")
+$NumpadDiv:: send("{4}")
+$NumpadMult:: send("{6}")
+$NumpadSub:: send("{8}")
+; n2
+$NumpadHome:: send("{c}")
+$NumpadUp:: send("{Volume_Up}")
+$NumpadAdd:: send("+{.}")
+; n3
+$NumpadRight:: send("{Right}")
+$NumpadClear:: send("{" scSpace "}")
+$NumpadLeft:: send("{Left}")
+; n4
+$NumpadEnd:: send("{1}")
+$NumpadDown:: send("{Volume_Down}")
+$NumpadEnter:: send("+{,}")
+; n5
+$NumpadIns:: send("{0}")
+$NumpadDel:: send("{f}")

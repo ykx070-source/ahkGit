@@ -1,5 +1,7 @@
 ; alone
 #Include .\alone\basic.ahk
+#Include .\alone\num.ahk
+
 ; spc
 #Include .\spc\0.ahk
 #Include .\spc\1.ahk
