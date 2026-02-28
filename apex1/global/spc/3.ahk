@@ -10,7 +10,6 @@ sc39 & a:: {
         (*) => Send("^{a}")
     )
 }
-
 sc39 & s:: {
     fxPenMode(
         (*) => send("^+{l}"),

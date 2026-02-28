@@ -1,11 +1,11 @@
-altHankakuPen() {
+hankakuAltPen() {
     send("^+{d}") ;desktop
     send("!{esc}")
     ; send("^+{a}")
 }
 
-!sc29:: altHankakuPen()  ;hankakuPc
-!vk19:: altHankakuPen() ;hankakuProAlt
+!sc29:: hankakuAltPen()  ;dHankaku
+!vk19:: hankakuAltPen() ;sHankakuAlt
 !1:: {
     send("^+{d}") ;desktop
 }

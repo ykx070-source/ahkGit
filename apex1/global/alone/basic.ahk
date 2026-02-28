@@ -10,7 +10,7 @@ $sc01:: {
     penMode := !penMode
 }  ;esc
 ; 1
-$sc29:: send("{" scZero "}") ;hankakuPc
+$sc29:: send("{" scZero "}") ;dHankaku
 $vkF4:: send("{" scZero "}") ;hankakuPro
 ; 2
 $sc0F:: send("{" scBackspace "}") ;tab
