@@ -1,5 +1,8 @@
 sc7B & sc1D:: {
-    send("{delete}")
+    fxPenMode(
+        (*) => (send("^+{Delete}"), send("^+{d}")),
+        (*) => send("{delete}")
+    )
 }
 sc7B & LWin:: {
 }

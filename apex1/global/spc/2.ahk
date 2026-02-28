@@ -2,28 +2,16 @@ sc39 & sc0F:: {
     send("{" scHankaku "}")
 }
 sc39 & q:: {
-    fxPenMode(
-        (*) => 0,
-        (*) => send("#{4}")
-    )
+    send("#{4}")
 }
 sc39 & w:: {
-    fxPenMode(
-        (*) => 0,
-        (*) => send("#{3}")
-    )
+    send("#{3}")
 }
 sc39 & e:: {
-    fxPenMode(
-        (*) => 0,
-        (*) => send("#{2}")
-    )
+    send("#{2}")
 }
 sc39 & r:: {
-    fxPenMode(
-        (*) => send("^+{d}"),
-        (*) => send("#{1}")
-    )
+    send("#{1}")
 }
 sc39 & t:: {
 }

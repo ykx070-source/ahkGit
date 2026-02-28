@@ -3,8 +3,11 @@ $NumLock:: send("{2}")
 $NumpadDiv:: send("{5}")
 $NumpadMult:: send("{7}")
 $Delete:: {
-    if (A_ComputerName = "s")
+    if (A_ComputerName = "s") {
         DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
+    } else {
+        send("{Delete}")
+    }
 }
 $NumpadSub:: DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
 ; n2

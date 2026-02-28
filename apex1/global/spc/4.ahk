@@ -2,28 +2,16 @@ sc39 & sc2A:: {
     send("{Esc}")
 }
 sc39 & z:: {
-    fxPenMode(
-        (*) => 0,
-        (*) => send("^{z}")
-    )
+    send("^{z}")
 }
 sc39 & x:: {
-    fxPenMode(
-        (*) => 0,
-        (*) => send("^{x}")
-    )
+    send("^{x}")
 }
 sc39 & c:: {
-    fxPenMode(
-        (*) => 0,
-        (*) => send("^{c}")
-    )
+    send("^{c}")
 }
 sc39 & v:: {
-    fxPenMode(
-        (*) => (send("^+{Delete}"), send("^+{d}")),
-        (*) => send("^{v}")
-    )
+    send("^{v}")
 }
 sc39 & b:: {
 }

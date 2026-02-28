@@ -24,6 +24,10 @@
     {
       "filePath": "common\\function\\function\\ime.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "apex1\\global\\alone\\num.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,

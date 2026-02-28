@@ -1,10 +1,8 @@
 sc39 & sc3A:: {
-    loop 1 { ; komoji
-        send("{F10}")
-        sleep(100)
-    }
-    send("{Enter}")
-    ;  (Send("{F10}"), Sleep(100), Send("{Enter}"))
+    fxPenMode(
+        (*) => send("^+{d}"),
+        (*) => (Send("{F10}"), Sleep(100), Send("{Enter}"))
+    )
 }
 sc39 & a:: {
     fxPenMode(
