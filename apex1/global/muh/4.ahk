@@ -20,7 +20,6 @@ sc7B & v:: {
 sc7B & b:: {
     Run A_AhkPath "\..\WindowSpy.ahk"
 }
-
 sc7B & n:: {
 }
 sc7B & m:: {

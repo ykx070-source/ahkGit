@@ -1,10 +1,18 @@
-MButton:: {
-    ; send("+!{;}")
+global penMode := false
+
+f1:: {
+    global penMode
+    if penMode {
+        WinActivate("ahk_exe ScreenPaint.exe")
+        send("^+{d}")
+        penMode := !penMode
+    }
+    else {
+        Sleep(100)
+        send("^+{l}")
+        penMode := !penMode
+    }
 }
-XButton1:: {
-    Click "Left", 2
-    Sleep(100)
-    send("+!{r}") ;フォルダ内検索
-    Sleep(100)
-    Send("{Enter}")
+f2:: {
+    send("^+{Delete}")
 }
