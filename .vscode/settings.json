@@ -20,6 +20,10 @@
     {
       "filePath": "common\\function\\function.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "common\\function\\function\\ime.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,
