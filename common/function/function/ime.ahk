@@ -18,9 +18,9 @@ guiIme() {
 
         width := (ImeState = 0) ? 100 : 300
 
-        if (A_ComputerName = "PRO7")
+        if (A_ComputerName = "s")
             yPos := 1700
-        else if (A_ComputerName = "pc")
+        else if (A_ComputerName = "d")
             yPos := 1020
         else
             yPos := 1000

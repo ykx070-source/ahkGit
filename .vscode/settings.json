@@ -16,6 +16,10 @@
     {
       "filePath": "apex1\\local\\pen\\pen.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "common\\function\\function.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,

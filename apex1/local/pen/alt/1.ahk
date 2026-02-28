@@ -4,8 +4,8 @@ altHankakuPen() {
     ; send("^+{a}")
 }
 
-!sc29:: altHankakuPen()
-!vk19:: altHankakuPen()
+!sc29:: altHankakuPen()  ;hankakuPc
+!vk19:: altHankakuPen() ;hankakuProAlt
 !1:: {
     send("^+{d}") ;desktop
 }

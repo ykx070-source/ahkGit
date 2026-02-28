@@ -3,6 +3,5 @@
         Sleep(100)
         send("{Enter}")
     }
-    sc39 & sc29:: spcHankakuPen()
-    ; sc39 & vk19:: spcHankakuPen()
-    sc39 & vkF4:: spcHankakuPen()
+    sc39 & sc29:: spcHankakuPen() ;hankakuPc
+    sc39 & vkF4:: spcHankakuPen()  ;hankakuPro

@@ -1,7 +1,7 @@
 global manualSuspend := false
 global autoSuspend := false
 
-if (A_ComputerName = "pc") {
+if (A_ComputerName = "d") {
     SetTimer(ShowMousePos, 50)
 }
 
