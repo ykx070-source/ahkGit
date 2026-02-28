@@ -4,7 +4,5 @@
         send("{Enter}")
     }
     sc39 & sc29:: spcHankakuPen()
-    sc39 & vk19:: spcHankakuPen()
-    ; sc39 & vkF4:: {
-    ;     send("!{f4}")
-    ; }
+    ; sc39 & vk19:: spcHankakuPen()
+    sc39 & vkF4:: spcHankakuPen()
