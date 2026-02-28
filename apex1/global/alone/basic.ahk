@@ -18,17 +18,17 @@ $f1:: {
 ; 1
 global myGu := 0
 global hotBoo := false
-$sc29:: {
+hankakuAlone() {
     global myGu, hotBoo
-
     myGu := Gui("+AlwaysOnTop +ToolWindow -Caption")
     ; WinSetExStyle("+0x20", myGu.Hwnd)
     ; myGu.Add("Text", "", "")
     WinSetTransparent(0, myGu.Hwnd)
     myGu.Show("x0 y0 w1 h1")
-
     hotBoo := true
 }
+$sc29:: hankakuAlone()
+$vkF4:: hankakuAlone()
 ; 2
 $sc0F:: send("{" scBackspace "}") ;tab
 ; 3
