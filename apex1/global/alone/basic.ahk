@@ -2,11 +2,9 @@ $F1:: {
     Run(A_ScriptDir "\..\apex2\apex2.ahk")
     ExitApp()
 }
-$sc01:: DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
-
-; $sc01:: send("{" scTab "}") ;esc
-; $sc29:: send("{" scEnter "}") ;hankaku(pc)
-; $vkF4:: send("{" scEnter "}") ;hankaku(pro7)
+$sc01:: DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0) ;esc
+$sc29:: send("{" scZero "}") ;hankakuPc
+$vkF4:: send("{" scZero "}") ;hankakuPro
 $sc0F:: send("{" scBackspace "}") ;tab
 $sc3A:: send("{" scSpace "}") ;capslocks
 
