@@ -1,5 +1,14 @@
 !sc0F:: {
-    edge_bookmark(1)
+    {
+        for window in ComObject("Shell.Application").Windows {
+            try {
+                if window.HWND = WinActive("A") {
+                    window.Navigate(A_MyDocuments)
+                    return
+                }
+            }
+        }
+    }
 }
 !q:: {
     edge_bookmark(3)
