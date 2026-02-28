@@ -1,12 +1,13 @@
 $sc01:: {
     global penMode
-    if penMode {
-        send("^+{Delete}")
-        send("^+{d}")
+    if !WinExist("ahk_exe ScreenPaint.exe") {
+        penMode := false
+        return
     }
-    else {
-        send("^+{l}")
-    }
+    fxPenMode(
+        (*) => (send("^+{Delete}"), send("^+{d}")),
+        (*) => send("^+{l}")
+    )
     penMode := !penMode
 }  ;esc
 ; 1

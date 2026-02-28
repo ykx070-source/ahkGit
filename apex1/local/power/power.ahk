@@ -4,7 +4,6 @@ Is_pptx() {
         return false
     return WinActive("ahk_exe POWERPNT.EXE") || WinActive("ahk_exe ScreenPaint.exe")
 }
-
 #HotIf Is_pptx()
 
 ; alone
