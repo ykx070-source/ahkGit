@@ -2,3 +2,4 @@
     #Include .\function\edge_bookmark.ahk
     #Include .\function\ime.ahk
     #Include .\function\send_text.ahk
+    #Include .\function\fxPenMode.ahk

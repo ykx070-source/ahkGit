@@ -1,19 +1,29 @@
 sc39 & sc3A:: {
-    loop 1 { ;komoji
+    loop 1 { ; komoji
         send("{F10}")
         sleep(100)
     }
     send("{Enter}")
-    sleep(10)
+    ;  (Send("{F10}"), Sleep(100), Send("{Enter}"))
 }
 sc39 & a:: {
-    send("^{a}")
+    fxPenMode(
+        (*) => Send("^+{a}"),
+        (*) => Send("^{a}")
+    )
 }
+
 sc39 & s:: {
-    send("^{s}")
+    fxPenMode(
+        (*) => send("^+{l}"),
+        (*) => Send("^{s}")
+    )
 }
 sc39 & d:: {
-    send("^{d}")
+    fxPenMode(
+        (*) => send("^+{r}"),
+        (*) => Send("^{d}")
+    )
 }
 sc39 & sc21::AltTab
 sc39 & g:: {

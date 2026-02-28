@@ -1,4 +1,14 @@
-; $sc01::  ;esc
+$sc01:: {
+    global penMode
+    if penMode {
+        send("^+{Delete}")
+        send("^+{d}")
+    }
+    else {
+        send("^+{l}")
+    }
+    penMode := !penMode
+}  ;esc
 ; 1
 $sc29:: send("{" scZero "}") ;hankakuPc
 $vkF4:: send("{" scZero "}") ;hankakuPro

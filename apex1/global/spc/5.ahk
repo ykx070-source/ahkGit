@@ -1,5 +1,11 @@
 sc39 & sc1D:: {
-    send("{enter}")
+    global penMode
+    if penMode {
+        send("^+{l}")
+    }
+    else {
+        send("{enter}")
+    }
 }
 sc39 & LWin:: {
     send("{F12}")
