@@ -1,12 +1,12 @@
 hankakuAltPower() {
-    Send("!wm")  ;slideMaster
+    send("!{1}")
 }
 
 !sc29:: hankakuAltPower()
 !vk19:: hankakuAltPower()
 !1:: {
-    Send("!mc") ;slideMasterClose
+    send("!{5}")
 }
 !2:: {
-    send("+!{y}") ;favorite
+    send("!{9}")
 }

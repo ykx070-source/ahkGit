@@ -1,6 +1,12 @@
+global booMaster := false
 !sc1D:: {
-    send("+!{2}") ;複製
+    global booMaster
+    booMaster := !booMaster
+    if (booMaster)
+        Send("!wm")  ;slideMaster
+    else
+        Send("!mc") ;slideMasterClose
 }
 !Lwin:: {
-    send("^!{Enter}")
+    Send("!{f5}")
 }

@@ -9,11 +9,11 @@ vkF4:: hankakuAloneHot()
     global hotBoo
     hotBoo := false
     myGu.Destroy
-    send_text("日本語などマルチ")
+    send_text("はい")
 }
 2:: {
     myGu.Destroy
-    send_text("日本語など")
+    send_text("わかりやすく教えて")
 }
 3:: {
     send("{8}")
