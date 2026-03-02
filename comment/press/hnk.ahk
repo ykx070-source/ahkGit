@@ -24,7 +24,7 @@ $sc79 Up:: {
     }
     now := A_TickCount
     if (now - lastUpTimeHnk < 333) {
-        SendInput("{" scHankaku "}")
+        SendInput("{" hankaku "}")
     }
     lastUpTimeHnk := now
 }

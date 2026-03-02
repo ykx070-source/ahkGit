@@ -1,7 +1,7 @@
 sc39 & sc1D:: {
     fxPenMode(
         (*) => (send("^+{d}")),
-        (*) => send("{" codeObj["enter"] "}")
+        (*) => send("{enter}")
     )
 }
 sc39 & LWin:: {

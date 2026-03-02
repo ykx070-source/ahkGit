@@ -24,7 +24,7 @@ $sc2A Up:: {
     }
     now := A_TickCount
     if (now - lastUpTimeSft < 333) {
-        SendInput("{" scHankaku "}")
+        SendInput("{" hankaku "}")
     }
     lastUpTimeSft := now
 }

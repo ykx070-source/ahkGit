@@ -5,6 +5,8 @@ Is_vscode() {
     return WinActive("ahk_exe Code.exe")
 }
 
+#Include .\hankaku\1.ahk
+
 #HotIf Is_vscode()
 
 ; alt

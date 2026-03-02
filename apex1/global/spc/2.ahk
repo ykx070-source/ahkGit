@@ -1,5 +1,5 @@
 sc39 & sc0F:: {
-    send("{" scHankaku "}")
+    send("{" codeObj["hankaku"] "}")
 }
 sc39 & q:: {
     send("#{4}")

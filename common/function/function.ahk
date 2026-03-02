@@ -3,3 +3,4 @@
 #Include .\function\ime.ahk
 #Include .\function\send_text.ahk
 #Include .\function\fxPenMode.ahk
+#Include .\function\hankakuAlone.ahk

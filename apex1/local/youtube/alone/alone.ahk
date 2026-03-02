@@ -1,1 +1,1 @@
-$XButton1:: send("{" scSpace "}")
+$XButton1:: send("{" codeObj["space"] "}")

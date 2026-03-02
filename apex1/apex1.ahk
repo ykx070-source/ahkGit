@@ -8,8 +8,8 @@ SetKeyDelay(0)
 SetTitleMatchMode(2)
 DetectHiddenWindows(true)
 ; 共通
+#Include ..\common\scancode\scancode.ahk
 #Include ..\common\function\function.ahk
-#Include ..\common\code\code.ahk
 ; メイン
 #Include .\global\global.ahk
 #Include .\local\local.ahk

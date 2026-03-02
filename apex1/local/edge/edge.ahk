@@ -4,6 +4,9 @@ Is_edge() {
         return false
     return WinActive("ahk_exe msedge.exe")
 }
+
+#Include .\hankaku\1.ahk
+
 #HotIf Is_edge()
 
 #Include .\alt\1.ahk

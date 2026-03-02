@@ -1,4 +1,3 @@
-global booMaster := false
 !sc1D:: {
     global booMaster
     booMaster := !booMaster

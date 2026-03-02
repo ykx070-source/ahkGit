@@ -16,7 +16,7 @@ $NumpadUp:: send("{Volume_Up}")
 $NumpadAdd:: send("+{.}")
 ; n3
 $NumpadRight:: send("{Right}")
-$NumpadClear:: send("{" scSpace "}")
+$NumpadClear:: send("{" codeObj["space"] "}")
 $NumpadLeft:: send("{Left}")
 ; n4
 $NumpadEnd:: send("{1}")
