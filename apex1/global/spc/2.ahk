@@ -11,7 +11,25 @@ sc39 & e:: {
     send("#{2}")
 }
 sc39 & r:: {
-    send("#{1}")
+    targetClass := "PPTFrameClass"
+    targetExe := "POWERPNT.exe"
+
+    hWnd := WinExist("ahk_class " targetClass)
+
+    if hWnd {
+        WinActivate("ahk_id " . hWnd)
+        ; WinRestore("ahk_id " . hWnd)
+        ; WinMaximize("ahk_id " . hWnd)  ; ← ここで最大化
+    }
+    else {
+        Run targetExe
+        ; 起動してウィンドウができるまで待機
+        WinWait("ahk_class " . targetClass)
+        hWnd := WinExist("ahk_class " . targetClass)
+        ; WinMaximize("ahk_id " . hWnd)  ; ← 最大化
+        WinActivate("ahk_id " . hWnd)
+    }
+    ; send("#{1}")
 }
 sc39 & t:: {
     send("{0}")

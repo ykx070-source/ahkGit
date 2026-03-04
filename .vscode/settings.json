@@ -30,11 +30,15 @@
       "group": "Default"
     },
     {
-      "filePath": "common\\code\\code.ahk",
+      "filePath": "apex1\\local\\vscode\\vscode.ahk",
       "group": "Default"
     },
     {
-      "filePath": "apex1\\local\\vscode\\vscode.ahk",
+      "filePath": "common\\scancode\\scancode.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\edge\\edge.ahk",
       "group": "Default"
     }
   ]

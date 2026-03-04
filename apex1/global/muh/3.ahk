@@ -10,7 +10,7 @@ sc7B & s:: {
 sc7B & d:: {
     send("#{d}")
 }
-sc7B & sc21:: {
+sc7B & f:: {
     send("^{f}")
 }
 sc7B & g:: {

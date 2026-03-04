@@ -6,11 +6,11 @@ global timerEnabled := false
 
 SetTimer(guiIme, 100)
 guiIme() {
-    global myGui, prevImeState, penMode, prevBgColor, hotBoo
+    global myGui, prevImeState, penMode, prevBgColor, booHkk
 
     if penMode
         bgColor := "FF0000"  ; 赤
-    else if hotBoo
+    else if booHkk
         bgColor := "0000FF"  ; 青
     else
         bgColor := "FFFFAA"  ; 黄色

@@ -11,6 +11,6 @@ sc39 & s:: {
 sc39 & d:: {
     send("^+{Delete}")
 }
-; sc39 & sc21::AltTab
+; sc39 & f::AltTab
 sc39 & g:: {
 }

@@ -10,7 +10,7 @@ XButton2 & s:: {
 XButton2 & d:: {
     fxD()
 }
-XButton2 & sc21:: {
+XButton2 & f:: {
     fxSc21()
 }
 XButton2 & g:: {

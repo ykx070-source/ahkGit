@@ -1,5 +1,1 @@
-sc39 & LButton:: {
-}
-sc39 & RButton:: {
-    Click "Left", 2
-}
+#Requires AutoHotkey v2.0

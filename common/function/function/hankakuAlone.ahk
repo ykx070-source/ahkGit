@@ -1,51 +1,42 @@
-global myGu := 0
-global hotBoo := false
-global procName := ""
-global objs := []
+global booHkk := false
+global adjNouObjObj := Map()
 appIds := ["Code", "msedge", "POWERPNT"]
-nous := ["1", "2", "3", "a"]
-
-for index, nou in nous {
-    m := Map()
-    for appId in appIds {
-        funcName := appId nou
-        if IsSet(%funcName%) {
-            m[appId] := %funcName%
-        } else {
-            m[appId] := (*) => 0
+; nous := ["1", "a", "space", "capslock",]
+adjectives := ["none", "space", "muhenkan",]
+for nou in nous {
+    for adjective in adjectives {
+        adjNou := keyAlias[adjective] nou
+        appIdFxObj := Map()
+        for appId in appIds {
+            funcId := appId adjNou
+            if IsSet(%funcId%)
+                appIdFxObj[appId] := %funcId%
+            else
+                appIdFxObj[appId] := (*) => 0
         }
+        adjNouObjObj[adjNou] := appIdFxObj
     }
-    objs.Push(m)
 }
-for index, nou in nous {
-    Hotkey(codeObj[nou], MakeHotkey(index), "Off")
-}
-
-MakeHotkey(index) {
-    global objs
-    return (*) => handleProcess(objs[index])
-}
-handleProcess(exeMap) {
-    global hotBoo, nous
-    procName := WinGetProcessName("A")
-    procName := StrReplace(procName, ".exe")  ; ← 追加
-    hotBoo := false
-    if exeMap.Has(procName) {
-        exeMap[procName]()
-    }
-    for nou in nous
-        Hotkey(codeObj[nou], "Off")
-}
-
 hankakuAlone() {
-    global hotBoo, nous
-
-    if (hotBoo) {
+    global booHkk
+    if (booHkk) {
         for nou in nous
-            Hotkey(codeObj[nou], "Off")
+            for adjective in adjectives {
+                if (adjective = "none") {
+                    Hotkey(codeObj[nou], "Off")
+                } else {
+                    Hotkey(codeObj[adjective] " & " codeObj[nou], "Off")
+                }
+            }
     } else {
         for nou in nous
-            Hotkey(codeObj[nou], "On")
+            for adjective in adjectives {
+                if (adjective = "none") {
+                    Hotkey(codeObj[nou], "On")
+                } else {
+                    Hotkey(codeObj[adjective] " & " codeObj[nou], "On")
+                }
+            }
     }
-    hotBoo := !hotBoo
+    booHkk := !booHkk
 }

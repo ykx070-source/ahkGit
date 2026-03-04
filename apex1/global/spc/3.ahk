@@ -22,7 +22,7 @@ sc39 & d:: {
         (*) => Send("^{d}")
     )
 }
-sc39 & sc21::AltTab
+sc39 & f::AltTab
 sc39 & g:: {
     send("^{y}")
 }

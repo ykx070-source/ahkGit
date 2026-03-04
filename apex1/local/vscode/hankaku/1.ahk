@@ -3,10 +3,28 @@
 ; sc39 & sc29:: hankakuSpc()
 ; sc39 & vkF4:: hankakuSpc()
 
-code1() {
-    send("{g}")
+codeNone1() {
+    send("{u}")
 }
-code2() {
+codeSpc1() {
+    send("{t}")
+}
+codeNoneCapslock() {
+    send("{t}")
+}
+codeNoneQ() {
+    send("{e}")
+}
+codeNoneTab() {
+    send("{r}")
+}
+codeMhk1() {
+    send("{o}")
+}
+codeNoneSpace() {
+    send("{b}")
+}
+codeNoneMuhenkan() {
     send("{c}")
 }
 code3() {
