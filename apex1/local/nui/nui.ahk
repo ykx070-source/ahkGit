@@ -1,7 +1,7 @@
 #HotIf isNui()
 
 ; sol
-#Include .\sol\sol.ahk
+#Include .\sol\1.ahk
 ; spc
 ; #Include .\spc\mouse.ahk
 ; alt

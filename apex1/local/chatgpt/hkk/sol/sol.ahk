@@ -1,6 +1,6 @@
 $1:: {
-    fxToggleHkk()
-    fxText("はい")
+    ; fxToggleHkk()
+    ; fxText("はい")
 }
 $2:: {
     fxToggleHkk()

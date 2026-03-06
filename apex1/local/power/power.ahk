@@ -1,5 +1,6 @@
 #HotIf booHkk && isPowerScreen()
-#Include .\hkk\sol\sol.ahk
+#Include .\hkk\sol\1.ahk
+#Include .\hkk\spc\1.ahk
 #HotIf isPowerScreen()
 ; sol
 #Include .\sol\sol.ahk
