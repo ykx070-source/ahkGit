@@ -4,12 +4,12 @@ XButton2 & LButton:: {
 }
 XButton2 & RButton:: {
 }
-XButton2 & WheelUp:: {
-    Send("!hfg")
-}
-XButton2 & WheelDown:: {
-    Send("!hfk")
-}
+; XButton2 & WheelUp:: {
+;     Send("!hfg")
+; }
+; XButton2 & WheelDown:: {
+;     Send("!hfk")
+; }
 XButton2 & XButton1:: {
     send("+!{p}") ;エクスプローラーにフォーカス
     sleep(10)

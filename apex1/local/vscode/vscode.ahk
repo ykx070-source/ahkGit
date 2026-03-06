@@ -1,12 +1,6 @@
-#Include .\hankaku\1.ahk
-#Include .\hankaku\5.ahk
-isVscode() {
-    hwnd := WinExist("A")
-    if !hwnd
-        return false
-    return WinActive("ahk_exe Code.exe")
-}
-#HotIf isVscode()
+#HotIf booHkk && isVscode
+#Include .\hkk\sol\sol.ahk
+#HotIf isVscode
 ; alt
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk
@@ -15,8 +9,9 @@ isVscode() {
 #Include .\alt\5.ahk
 ; x2
 #Include .\x2\mouse.ahk
+; x1
 #Include .\x1\mouse.ahk
-; alone
-#Include .\alone\alone.ahk
+; sol
+#Include .\sol\sol.ahk
 
 #HotIf

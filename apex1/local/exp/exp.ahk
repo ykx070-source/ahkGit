@@ -1,10 +1,4 @@
-isExp() {
-    hwnd := WinExist("A")
-    if !hwnd
-        return false
-    return WinActive("ahk_exe explorer.exe")
-}
-#HotIf isExp()
+#HotIf isExplorer()
 
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk

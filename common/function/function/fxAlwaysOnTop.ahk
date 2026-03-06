@@ -1,4 +1,4 @@
-always_on_top() {
+fxAlwaysOnTop() {
     static overlay := 0
     static lastHwnd := 0
 

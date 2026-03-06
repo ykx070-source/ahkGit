@@ -1,3 +1,0 @@
-powerpntNonef() {
-    Send("!{f8}")
-}

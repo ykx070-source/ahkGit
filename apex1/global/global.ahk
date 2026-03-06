@@ -1,7 +1,6 @@
-; alone
-#Include .\alone\basic.ahk
-#Include .\alone\num.ahk
-
+; sol
+#Include .\sol\basic.ahk
+#Include .\sol\num.ahk
 ; spc
 #Include .\spc\0.ahk
 #Include .\spc\1.ahk
@@ -17,6 +16,13 @@
 #Include .\muh\4.ahk
 #Include .\muh\5.ahk
 #Include .\muh\mouse.ahk
+; hnk
+#Include .\hnk\1.ahk
+#Include .\hnk\2.ahk
+#Include .\hnk\3.ahk
+#Include .\hnk\4.ahk
+#Include .\hnk\5.ahk
+#Include .\hnk\mouse.ahk
 ; ctl
 #Include .\ctl\3.ahk
 #Include .\ctl\4.ahk
@@ -25,13 +31,6 @@
 #Include .\sft\1.ahk
 #Include .\sft\2.ahk
 #Include .\sft\5.ahk
-; hnk
-#Include .\hnk\1.ahk
-#Include .\hnk\2.ahk
-#Include .\hnk\3.ahk
-#Include .\hnk\4.ahk
-#Include .\hnk\5.ahk
-#Include .\hnk\mouse.ahk
 ; x2
 #Include .\x2\mouse.ahk
 #Include .\x2\1.ahk
@@ -41,10 +40,3 @@
 #Include .\x2\5.ahk
 ; x1
 #Include .\x1\mouse.ahk
-
-#Include .\fx\1.ahk
-#Include .\fx\2.ahk
-#Include .\fx\3.ahk
-#Include .\fx\4.ahk
-#Include .\fx\5.ahk
-#Include .\fx\mouse.ahk

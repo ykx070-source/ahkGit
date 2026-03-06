@@ -5,7 +5,7 @@ XButton2 & RButton:: {
     sleep(10)
     send("^g")
     sleep(30)
-    send_text("G!A1")
+    fxText("G!A1")
     sleep(10)
     send("{Enter}")
     sleep(10)

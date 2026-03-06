@@ -1,13 +1,8 @@
-#Include .\hkk\hkk.ahk
-isPower() {
-    hwnd := WinExist("A")
-    if !hwnd
-        return false
-    return WinActive("ahk_exe POWERPNT.EXE") || WinActive("ahk_exe ScreenPaint.exe")
-}
-#HotIf isPower()
-; alone
-#Include .\alone\alone.ahk
+#HotIf booHkk && isPowerScreen()
+#Include .\hkk\sol\sol.ahk
+#HotIf isPowerScreen()
+; sol
+#Include .\sol\sol.ahk
 ; spc
 #Include .\spc\mouse.ahk
 ; alt

@@ -1,13 +1,7 @@
-isNui() {
-    hwnd := WinExist("A")
-    if !hwnd
-        return false
-    return WinActive("ahk_class NUIDialog")
-}
 #HotIf isNui()
 
-; alone
-#Include .\alone\alone.ahk
+; sol
+#Include .\sol\sol.ahk
 ; spc
 ; #Include .\spc\mouse.ahk
 ; alt

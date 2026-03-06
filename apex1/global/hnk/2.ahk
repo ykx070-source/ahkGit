@@ -1,4 +1,4 @@
-sc79 & sc0F:: {
+sc79 & tab:: {
     fxSc0F()
 }
 sc79 & q:: {

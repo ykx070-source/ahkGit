@@ -10,19 +10,11 @@
       "group": "Default"
     },
     {
-      "filePath": "apex1\\local\\pen\\pen.ahk",
-      "group": "Default"
-    },
-    {
       "filePath": "common\\function\\function.ahk",
       "group": "Default"
     },
     {
       "filePath": "common\\function\\function\\ime.ahk",
-      "group": "Default"
-    },
-    {
-      "filePath": "apex1\\global\\alone\\num.ahk",
       "group": "Default"
     },
     {
@@ -39,10 +31,6 @@
     },
     {
       "filePath": "apex1\\local\\edge\\edge.ahk",
-      "group": "Default"
-    },
-    {
-      "filePath": "apex1\\hkk\\alone\\1.ahk",
       "group": "Default"
     }
   ]

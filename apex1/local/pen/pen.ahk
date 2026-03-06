@@ -1,11 +1,4 @@
-isPen() {
-    hwnd := WinExist("A")
-    if !hwnd
-        return false
-    return WinActive("ahk_exe ScreenPaint.exe")
-}
-
-#HotIf isPen()
+#HotIf isScreen()
 
 ; spc
 #Include .\spc\1.ahk
@@ -21,7 +14,7 @@ isPen() {
 ; ; x2
 ; #Include .\x2\mouse.ahk
 ; #Include .\x1\mouse.ahk
-; ; alone
-; #Include .\alone\alone.ahk
+; ; sol
+; #Include .\sol\sol.ahk
 
 #HotIf

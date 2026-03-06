@@ -1,4 +1,4 @@
-XButton2 & sc0F:: {
+XButton2 & tab:: {
     fxSc0F()
 }
 XButton2 & q:: {

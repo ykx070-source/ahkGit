@@ -1,4 +1,4 @@
-codeObj["tab"] := "sc0F"
+codeObj["tab"] := "tab"
 codeObj["q"] := "sc10"
 codeObj["w"] := "sc11"
 codeObj["e"] := "sc12"

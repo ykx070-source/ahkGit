@@ -1,15 +1,15 @@
 !sc29:: {
-    edge_bookmark(0)
+    fxEdgeBookmark(0)
 }
 !vk19:: {
-    edge_bookmark(0)
+    fxEdgeBookmark(0)
 }
 !1:: {
-    edge_bookmark(2)
+    fxEdgeBookmark(2)
 }
 !2:: {
-    edge_bookmark(4)
+    fxEdgeBookmark(4)
 }
 !3:: {
-    edge_bookmark(6)
+    fxEdgeBookmark(6)
 }

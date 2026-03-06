@@ -1,4 +1,4 @@
-!sc0F:: {
+!tab:: {
     {
         for window in ComObject("Shell.Application").Windows {
             try {
@@ -11,11 +11,11 @@
     }
 }
 !q:: {
-    edge_bookmark(3)
+    fxEdgeBookmark(3)
 }
 !w:: {
-    edge_bookmark(5)
+    fxEdgeBookmark(5)
 }
 !e:: {
-    edge_bookmark(7)
+    fxEdgeBookmark(7)
 }

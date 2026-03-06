@@ -14,11 +14,11 @@ hankakuAltExp() {
 !sc29:: hankakuAltExp()  ;dHankaku
 !vk19:: hankakuAltExp() ;sHankakuAlt
 !1:: {
-    edge_bookmark(2)
+    fxEdgeBookmark(2)
 }
 !2:: {
-    edge_bookmark(4)
+    fxEdgeBookmark(4)
 }
 !3:: {
-    edge_bookmark(6)
+    fxEdgeBookmark(6)
 }

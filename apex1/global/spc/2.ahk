@@ -1,6 +1,6 @@
-; sc39 & sc0F:: {
-;     send("{" codeObj["hankaku"] "}")
-; }
+sc39 & tab:: {
+    send("{" codeObj["hankaku"] "}")
+}
 sc39 & q:: {
     send("#{4}")
 }

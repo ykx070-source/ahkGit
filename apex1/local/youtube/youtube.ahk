@@ -1,11 +1,4 @@
-Is_environment() {
-    hwnd := WinExist("A")
-    if !hwnd
-        return false
-    title := WinGetTitle(hwnd)
-    return InStr(title, "YouTube")
-}
-#HotIf Is_environment()
+#HotIf isYoutube()
 #Include .\x2\mouse.ahk
-#Include .\alone\alone.ahk
+#Include .\sol\sol.ahk
 #HotIf

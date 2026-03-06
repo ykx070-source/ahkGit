@@ -1,3 +1,0 @@
-powerpntSpcMuhenkan() {
-    Send("!{f8}")
-}

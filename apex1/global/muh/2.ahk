@@ -1,4 +1,4 @@
-sc7B & sc0F:: {
+sc7B & tab:: {
     send("!{right}")
 }
 sc7B & q:: {
