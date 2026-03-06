@@ -1,5 +1,5 @@
 sc7B & sc2A:: {
-    send("{tab}")
+    send("{" codeObj["tab"] "}")
 }
 sc7B & z:: {
     send("#{5}")

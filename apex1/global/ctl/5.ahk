@@ -1,8 +1,8 @@
 sc1D & sc7B:: {
-    send("^+{tab}")
+    send("^+{" codeObj["tab"] "}")
 }
 sc1D & sc39:: {
-    send("^{tab}")
+    send("^{" codeObj["tab"] "}")
 }
 
 sc1D & sc79:: {

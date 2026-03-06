@@ -1,8 +1,12 @@
 XButton2 & LButton:: {
-    send("{esc}")
-    send("^{LButton}") ;go
 }
 XButton2 & RButton:: {
+    Send "{Esc}"
+    Send "{Shift down}"
+    Send "{LButton down}"
+    Send "{Shift up}"
+    KeyWait "RButton"
+    Send "{LButton up}"
 }
 XButton2 & WheelUp:: {
     Send("!hfg")

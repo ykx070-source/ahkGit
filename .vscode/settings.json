@@ -40,6 +40,10 @@
     {
       "filePath": "apex1\\local\\edge\\edge.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "apex1\\hkk\\alone\\1.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,

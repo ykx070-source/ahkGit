@@ -15,4 +15,6 @@ DetectHiddenWindows(true)
 #Include .\local\local.ahk
 #Include .\always\always.ahk
 
+#Include .\hkk\hkk.ahk
+
 TraySetIcon "shell32.dll", 44

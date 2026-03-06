@@ -3,8 +3,24 @@
 ; sc39 & sc29:: hankakuSpc()
 ; sc39 & vkF4:: hankakuSpc()
 
+normalCodeNone1() {
+    send("{y}")
+}
+
+hkkCodeSpc1() {
+    send("{s}")
+}
+hkkCodeNone1() {
+    send("{k}")
+}
 codeNone1() {
     send("{u}")
+}
+codeNone12() {
+    send("{w}")
+}
+codeNoneA() {
+    send("{l}")
 }
 codeSpc1() {
     send("{t}")
@@ -20,9 +36,6 @@ codeNoneTab() {
 }
 codeMhk1() {
     send("{o}")
-}
-codeNoneSpace() {
-    send("{b}")
 }
 codeNoneMuhenkan() {
     send("{c}")

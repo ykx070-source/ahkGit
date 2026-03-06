@@ -1,4 +1,4 @@
-msedgeNone1() {
+hkkMsedgeNone1() {
     send_text("はい")
 }
 msedgeSc391() {

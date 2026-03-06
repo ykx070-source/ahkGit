@@ -1,0 +1,3 @@
+powerpntSpcMuhenkan() {
+    Send("!{f8}")
+}

@@ -19,6 +19,6 @@ $f1:: {
 $sc29:: hankakuAlone()
 $vkF4:: hankakuAlone()
 ; 2
-$sc0F:: send("{" codeObj["backspace"] "}") ;tab
+; $sc0F:: send("{" codeObj["backspace"] "}") ;tab
 ; 3
-$sc3A:: send("{" codeObj["space"] "}") ;capslocks
+; $sc3A:: send("{" codeObj["space"] "}") ;capslocks

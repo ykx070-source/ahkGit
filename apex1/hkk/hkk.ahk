@@ -1,0 +1,1 @@
+#Include .\alone\1.ahk

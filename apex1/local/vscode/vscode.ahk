@@ -1,14 +1,12 @@
-Is_vscode() {
+#Include .\hankaku\1.ahk
+#Include .\hankaku\5.ahk
+isVscode() {
     hwnd := WinExist("A")
     if !hwnd
         return false
     return WinActive("ahk_exe Code.exe")
 }
-
-#Include .\hankaku\1.ahk
-
-#HotIf Is_vscode()
-
+#HotIf isVscode()
 ; alt
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk

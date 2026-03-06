@@ -1,6 +1,3 @@
-sc39 & sc0F:: {
-    send("{" hankaku "}")
-}
 sc39 & q:: {
     send("#{4}")
 }

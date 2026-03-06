@@ -1,0 +1,3 @@
+powerpntSpcf() {
+    Send("!{f8}")
+}

@@ -1,15 +1,23 @@
 global myGui := 0
 global prevImeState := -1
+global prevWindowState := ""
 global prevBgColor := ""
 global penMode := false
 global timerEnabled := false
-
+global booHkk := false
+; global appId := ""
 SetTimer(guiIme, 100)
 guiIme() {
-    global myGui, prevImeState, penMode, prevBgColor, booHkk
-
-    if penMode
-        bgColor := "FF0000"  ; 赤
+    global myGui, prevImeState, penMode, prevBgColor, booHkk, prevWindowState,
+        ; appId
+        ; rowAppId := WinGetProcessName("A")
+        ; appId := StrReplace(rowAppId, ".exe")
+        ; if (rowAppId != prevWindowState) {
+        ;     fxHotkey(normalAppIdObjObj, false, "On")
+        ; }
+        ; prevWindowState := rowAppId
+        if penMode
+    bgColor := "FF0000"  ; 赤
     else if booHkk
         bgColor := "0000FF"  ; 青
     else

@@ -1,11 +1,10 @@
+#Include .\hankaku\1.ahk
 Is_edge() {
     hwnd := WinExist("A")
     if !hwnd
         return false
     return WinActive("ahk_exe msedge.exe")
 }
-
-#Include .\hankaku\1.ahk
 
 #HotIf Is_edge()
 

@@ -1,13 +1,11 @@
-Is_pptx() {
+#Include .\hkk\hkk.ahk
+isPower() {
     hwnd := WinExist("A")
     if !hwnd
         return false
     return WinActive("ahk_exe POWERPNT.EXE") || WinActive("ahk_exe ScreenPaint.exe")
 }
-
-#Include .\hankaku\1.ahk
-#HotIf Is_pptx()
-
+#HotIf isPower()
 ; alone
 #Include .\alone\alone.ahk
 ; spc
