@@ -6,3 +6,7 @@ $d:: {
     fxToggleHkk()
     fxText("うまくいかない")
 }
+$s:: {
+    fxToggleHkk()
+    fxText("なぜ")
+}

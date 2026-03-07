@@ -19,7 +19,7 @@ ShowMousePos() {
     }
 
     ; 自動判定だけを更新
-    autoSuspend := (positionY < 10)
+    autoSuspend := (positionY < 4.01)
 
     UpdateSuspend()
 }

@@ -1,5 +1,7 @@
 #Include .\function\ime.ahk
-#Include .\function\hotif.ahk
+#Include .\function\suspend.ahk
+
+#Include .\function\plFxHotif.ahk
 
 #Include .\function\hnkX2\1.ahk
 #Include .\function\hnkX2\2.ahk

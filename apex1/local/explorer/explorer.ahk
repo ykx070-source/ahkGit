@@ -1,4 +1,4 @@
-#HotIf isApp("explorer")
+#HotIf fxIsApp("explorer")
 
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk

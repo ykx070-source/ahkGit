@@ -1,4 +1,4 @@
-#HotIf isClass("NUIDialog")
+#HotIf fxIsClass("NUIDialog")
 
 ; sol
 #Include .\sol\1.ahk

@@ -1,9 +1,9 @@
-isApp(app) {
+fxIsApp(app) {
     return WinActive("ahk_exe " app ".exe")
 }
-isClass(class) {
+fxIsClass(class) {
     return WinActive("ahk_class " class)
 }
-isTitle(title) {
+fxIsTitle(title) {
     return InStr(WinGetTitle("A"), title)
 }

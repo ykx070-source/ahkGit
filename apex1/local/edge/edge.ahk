@@ -1,6 +1,6 @@
-#HotIf booHkk && isApp("msedge")
+#HotIf booHkk && fxIsApp("msedge")
 
-#HotIf isApp("msedge")
+#HotIf fxIsApp("msedge")
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk
 #Include .\alt\3.ahk
