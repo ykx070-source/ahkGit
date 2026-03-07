@@ -1,5 +1,3 @@
-#HotIf booHkk && fxIsApp("WindowsTerminal")
-
 #HotIf fxIsApp("WindowsTerminal")
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk

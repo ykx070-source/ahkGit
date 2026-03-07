@@ -7,12 +7,13 @@ SetDefaultMouseSpeed(0)
 SetKeyDelay(0)
 SetTitleMatchMode(2)
 DetectHiddenWindows(true)
-; 共通
-#Include ..\common\scancode\scancode.ahk
-#Include ..\common\function\function.ahk
+; prepare
+#Include .\scancode\scancode.ahk
+#Include .\function\function.ahk
 ; メイン
-#Include .\global\global.ahk
+#Include .\globalMajor\globalMajor.ahk
+#Include .\globalMinor\globalMinor.ahk
+#Include .\globalHz\globalHz.ahk
 #Include .\local\local.ahk
-#Include .\always\always.ahk
 ; アイコン
 TraySetIcon "shell32.dll", 44

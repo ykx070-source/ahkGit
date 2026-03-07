@@ -36,6 +36,14 @@
     {
       "filePath": "apex1\\local\\chatgpt\\chatgpt.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "apex1\\globalHz\\globalHz.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "apex1\\apex1.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,

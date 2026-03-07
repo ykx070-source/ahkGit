@@ -1,8 +1,8 @@
-#HotIf booHkk && fxIsApp("POWERPNT") || fxIsApp("ScreenPaint")
-#Include .\hz\sol\1.ahk
-#Include .\hz\sol\2.ahk
-#Include .\hz\sol\5.ahk
-#Include .\hz\spc\1.ahk
+; #HotIf booHkk && fxIsApp("POWERPNT") || fxIsApp("ScreenPaint")
+; #Include .\hz\sol\1.ahk
+; #Include .\hz\sol\2.ahk
+; #Include .\hz\sol\5.ahk
+; #Include .\hz\spc\1.ahk
 #HotIf fxIsApp("POWERPNT") || fxIsApp("ScreenPaint")
 ; sol
 #Include .\sol\sol.ahk
