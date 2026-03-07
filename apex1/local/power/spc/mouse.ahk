@@ -3,10 +3,14 @@
 ; sc39 & RButton:: {
 ;     Click "Left", 2
 ; }
-; sc39 & WheelUp:: {
-;     Send("!hfg")
-; }
+sc39 & WheelUp:: {
+    loop 5 {
+        Send("^+{up}")
+    }
+}
 
-; sc39 & WheelDown:: {
-;     Send("!hfk")
-; }
+sc39 & WheelDown:: {
+    loop 5 {
+        Send("^+{down}")
+    }
+}

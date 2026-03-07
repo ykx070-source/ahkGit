@@ -1,11 +1,14 @@
-hankakuAltPower() {
-    send("!{1}")
+fxAltHankakuPower() {
+    fxToggleHkk()
+    Send("{esc}")
+    Send("{esc}")
+    Send("!{f8}")
 }
 
-!sc29:: hankakuAltPower()
-!vk19:: hankakuAltPower()
+!sc29:: fxAltHankakuPower()
+!vk19:: fxAltHankakuPower()
 !1:: {
-    send("!{5}")
+    Send("!+{f5}")
 }
 !2:: {
     send("!{9}")

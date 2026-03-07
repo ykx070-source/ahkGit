@@ -1,13 +1,13 @@
-sc1D & n:: {
+LCtrl & n:: {
 }
-sc1D & m:: {
+LCtrl & m:: {
 }
-sc1D & sc33:: {
+LCtrl & sc33:: {
     fxText("、")
 }
-sc1D & sc34:: {
+LCtrl & sc34:: {
     fxText("。")
 }
-sc1D & sc35:: {
+LCtrl & sc35:: {
     fxText("？")
 }

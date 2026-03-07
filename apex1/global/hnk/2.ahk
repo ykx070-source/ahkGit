@@ -1,18 +1,18 @@
 sc79 & tab:: {
-    fxSc0F()
+    fxHnkX2Tab()
 }
 sc79 & q:: {
-    fxQ()
+    fxHnkX2Q()
 }
 sc79 & w:: {
-    fxW()
+    fxHnkX2W()
 }
 sc79 & e:: {
-    fxE()
+    fxHnkX2E()
 }
 sc79 & r:: {
-    fxR()
+    fxHnkX2R()
 }
 sc79 & t:: {
-    fxT()
+    fxHnkX2T()
 }

@@ -1,11 +1,11 @@
-fxSc1D() {
+fxHnkX2LCtrl() {
     send("{Down}")
 }
 fxLWin() {
 }
 fxLAlt() {
 }
-fxSc07B() {
+fxHnkX2Muhenkan() {
     send("{LButton}") ;'lineChoice
     sleep(10)
     send("{End}")
@@ -13,7 +13,7 @@ fxSc07B() {
     send("+{Home}")
     sleep(10)
 }
-fxSc39() {
+fxHnkX2Space() {
     send("{LButton}") ;lineUpChoice
     sleep(10)
     send("{End}")

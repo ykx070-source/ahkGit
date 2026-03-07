@@ -1,4 +1,4 @@
-sc39 & sc1D:: {
+sc39 & LCtrl:: {
     send("{enter}")
 }
 sc39 & LWin:: {

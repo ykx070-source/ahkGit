@@ -1,4 +1,0 @@
-$f:: {
-    fxToggleHkk()
-    fxText("とは？")
-}

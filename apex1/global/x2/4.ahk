@@ -1,23 +1,23 @@
 XButton2 & sc2A:: {
-    fxSc2A()
+    fxHnkX2LShift()
 }
 
 XButton2 & z:: {
-    fxZ()
+    fxHnkX2Z()
 }
 
 XButton2 & x:: {
-    fxX()
+    fxHnkX2X()
 }
 
 XButton2 & c:: {
-    fxC()
+    fxHnkX2C()
 }
 
 XButton2 & v:: {
-    fxV()
+    fxHnkX2V()
 }
 
 XButton2 & b:: {
-    fxB()
+    fxHnkX2B()
 }

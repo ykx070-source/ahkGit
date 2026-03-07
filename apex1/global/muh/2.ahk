@@ -23,7 +23,7 @@ sc7B & u:: {
 sc7B & i:: {
 }
 sc7B & o:: {
-    send("{sc1D Down}{Shift Down}{Right}{Shift Up}{sc1D Up}")
+    send("{LCtrl Down}{Shift Down}{Right}{Shift Up}{LCtrl Up}")
 }
 sc7B & p:: {
     send("^{End}")

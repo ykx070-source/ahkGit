@@ -1,8 +1,8 @@
 #HotIf booHkk && isApp("POWERPNT") || isApp("ScreenPaint")
-#Include .\hkk\sol\1.ahk
-#Include .\hkk\sol\2.ahk
-#Include .\hkk\sol\5.ahk
-#Include .\hkk\spc\1.ahk
+#Include .\hz\sol\1.ahk
+#Include .\hz\sol\2.ahk
+#Include .\hz\sol\5.ahk
+#Include .\hz\spc\1.ahk
 #HotIf isApp("POWERPNT") || isApp("ScreenPaint")
 ; sol
 #Include .\sol\sol.ahk

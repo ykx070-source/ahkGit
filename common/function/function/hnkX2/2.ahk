@@ -1,17 +1,17 @@
-fxSc0F() {
+fxHnkX2Tab() {
     send("+{Home}")
 }
-fxQ() {
+fxHnkX2Q() {
 }
-fxW() {
+fxHnkX2W() {
     send("+{Left}")
 }
-fxE() {
+fxHnkX2E() {
     send("+{Right}")
 }
-fxR() {
+fxHnkX2R() {
     send("^+{Right}")
 }
-fxT() {
+fxHnkX2T() {
     send("+{End}")
 }

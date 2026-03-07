@@ -6,7 +6,7 @@ fxCtlUsed() {
     global isCompletedCtl
     isCompletedCtl := true
 }
-$sc1D:: {
+$LCtrl:: {
     global isDownCtl, isCompletedCtl
     if isDownCtl
         return
@@ -15,7 +15,7 @@ $sc1D:: {
     isCompletedCtl := false
 }
 
-$sc1D Up:: {
+$LCtrl Up:: {
     global isDownCtl, isCompletedCtl
     global lastUpTimeCtl
     isDownCtl := false

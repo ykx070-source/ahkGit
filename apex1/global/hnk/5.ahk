@@ -1,13 +1,13 @@
-sc79 & sc1D:: {
-    fxSc1D()
+sc79 & LCtrl:: {
+    fxHnkX2LCtrl()
 }
 sc79 & LWin:: {
 }
 sc79 & LAlt:: {
 }
-sc79 & sc07B:: {
-    fxSc07B()
+sc79 & sc7B:: {
+    fxHnkX2Muhenkan()
 }
 sc79 & sc39:: {
-    fxSc39()
+    fxHnkX2Space()
 }

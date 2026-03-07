@@ -1,18 +1,18 @@
 XButton2 & sc3A:: {
-    fxSc3A()
+    fxHnkX2Capslock()
 }
 XButton2 & a:: {
-    fxA()
+    fxHnkX2A()
 }
 XButton2 & s:: {
-    fxS()
+    fxHnkX2S()
 }
 XButton2 & d:: {
-    fxD()
+    fxHnkX2D()
 }
 XButton2 & f:: {
-    fxSc21()
+    fxHnkX2F()
 }
 XButton2 & g:: {
-    fxG()
+    fxHnkX2G()
 }

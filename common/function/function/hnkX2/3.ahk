@@ -1,18 +1,18 @@
-fxSc3A() {
+fxHnkX2Capslock() {
     send("{Home}")
 }
-fxA() {
+fxHnkX2A() {
     send("^{Left}")
 }
-fxS() {
+fxHnkX2S() {
     send("{Left}")
 }
-fxD() {
+fxHnkX2D() {
     send("{Right}")
 }
-fxSc21() {
+fxHnkX2F() {
     send("^{Right}")
 }
-fxG() {
+fxHnkX2G() {
     send("{End}")
 }

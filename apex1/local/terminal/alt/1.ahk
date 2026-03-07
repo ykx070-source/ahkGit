@@ -1,6 +1,6 @@
-!sc29:: hankakuAltTerminal()
-!vk19:: hankakuAltTerminal()
-hankakuAltTerminal() {
+!sc29:: fxAltHankakuTerminal()
+!vk19:: fxAltHankakuTerminal()
+fxAltHankakuTerminal() {
 
     ; フォルダ名
     result := InputBox("フォルダ名", "")
@@ -42,8 +42,8 @@ hankakuAltTerminal() {
 !1:: {
 }
 !2:: {
-    fxEdgeBookmark(4)
+    fxHnkX2EdgeBookmark(4)
 }
 !3:: {
-    fxEdgeBookmark(6)
+    fxHnkX2EdgeBookmark(6)
 }

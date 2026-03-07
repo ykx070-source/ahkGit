@@ -1,6 +1,6 @@
-!sc1D:: {
-    send("+!{2}") ;複製
+!LCtrl:: {
+    send("+!{t}") ;設定
 }
 !Lwin:: {
-    send("^!{Enter}")
+    send("+!{k}") ;ショートカット
 }

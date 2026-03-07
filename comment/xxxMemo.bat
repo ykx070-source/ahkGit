@@ -12,3 +12,11 @@ https://www.youtube.com/watch?v=nmjo9BapISs
 py -m yt_dlp --js-runtimes node --yes-playlist -x --audio-format mp3 --audio-quality 0 `
 "https://www.youtube.com/watch?v=nmjo9BapISs" `
 "https://www.youtube.com/watch?v=CdUWAMnw6z8"
+
+fa
+
+
+ASDF
+hz
+muh
+hnk

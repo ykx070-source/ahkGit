@@ -1,18 +1,18 @@
 sc79 & sc3A:: {
-    fxSc3A()
+    fxHnkX2Capslock()
 }
 sc79 & a:: {
-    fxA()
+    fxHnkX2A()
 }
 sc79 & s:: {
-    fxS()
+    fxHnkX2S()
 }
 sc79 & d:: {
-    fxD()
+    fxHnkX2D()
 }
 sc79 & f:: {
-    fxSc21()
+    fxHnkX2F()
 }
 sc79 & g:: {
-    fxG()
+    fxHnkX2G()
 }

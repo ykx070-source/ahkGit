@@ -13,6 +13,6 @@
 }
 
 !x:: {
-    send("^+k")  ; sc1D + Shift + K
+    send("^+k")  ; LCtrl + Shift + K
     sleep(10)
 }

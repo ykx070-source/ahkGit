@@ -1,10 +1,10 @@
-hankakuAltNui() {
+fxAltHankakuNui() {
     send("{tab}")
     send("{r}")
 }
 
-!sc29:: hankakuAltNui()
-!vk19:: hankakuAltNui()
+!sc29:: fxAltHankakuNui()
+!vk19:: fxAltHankakuNui()
 !1:: {
     send("!{5}")
 }

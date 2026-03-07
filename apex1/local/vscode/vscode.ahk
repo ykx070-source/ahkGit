@@ -1,5 +1,5 @@
 #HotIf booHkk && isApp("code")
-#Include .\hkk\sol\sol.ahk
+#Include .\hz\sol\sol.ahk
 #HotIf isApp("code")
 ; alt
 #Include .\alt\1.ahk

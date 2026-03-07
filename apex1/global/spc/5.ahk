@@ -1,4 +1,4 @@
-sc39 & sc1D:: {
+sc39 & LCtrl:: {
     fxPenMode(
         (*) => (send("^+{d}")),
         (*) => send("{" codeObj["enter"] "}")

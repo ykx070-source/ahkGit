@@ -1,4 +1,4 @@
-hankakuAltExp() {
+fxAltHankakuExplorer() {
     {
         for window in ComObject("Shell.Application").Windows {
             try
@@ -11,14 +11,14 @@ hankakuAltExp() {
         }
     }
 }
-!sc29:: hankakuAltExp()  ;dHankaku
-!vk19:: hankakuAltExp() ;sHankakuAlt
+!sc29:: fxAltHankakuExplorer()
+!vk19:: fxAltHankakuExplorer()
 !1:: {
-    fxEdgeBookmark(2)
+    fxHnkX2EdgeBookmark(2)
 }
 !2:: {
-    fxEdgeBookmark(4)
+    fxHnkX2EdgeBookmark(4)
 }
 !3:: {
-    fxEdgeBookmark(6)
+    fxHnkX2EdgeBookmark(6)
 }

@@ -16,5 +16,10 @@
     Send("{Enter}")
 }
 !x:: {
-    send("!07")
+    global booMaster
+    booMaster := !booMaster
+    if (booMaster)
+        Send("!wm")  ;slideMaster
+    else
+        Send("!mc") ;slideMasterClose
 }

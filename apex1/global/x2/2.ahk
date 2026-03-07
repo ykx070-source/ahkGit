@@ -1,18 +1,18 @@
 XButton2 & tab:: {
-    fxSc0F()
+    fxHnkX2Tab()
 }
 XButton2 & q:: {
-    fxQ()
+    fxHnkX2Q()
 }
 XButton2 & w:: {
-    fxW()
+    fxHnkX2W()
 }
 XButton2 & e:: {
-    fxE()
+    fxHnkX2E()
 }
 XButton2 & r:: {
-    fxR()
+    fxHnkX2R()
 }
 XButton2 & t:: {
-    fxT()
+    fxHnkX2T()
 }

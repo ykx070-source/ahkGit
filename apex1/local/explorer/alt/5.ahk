@@ -1,4 +1,4 @@
-!sc1D:: {
+!LCtrl:: {
     send("+!{v}")  ; Shift + sc38 + V
     sleep(10)
 }

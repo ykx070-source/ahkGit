@@ -14,10 +14,6 @@
       "group": "Default"
     },
     {
-      "filePath": "common\\function\\function\\ime.ahk",
-      "group": "Default"
-    },
-    {
       "filePath": "apex1\\local\\power\\power.ahk",
       "group": "Default"
     },
@@ -38,7 +34,7 @@
       "group": "Default"
     },
     {
-      "filePath": "apex1\\local\\explorer\\explorer.ahk",
+      "filePath": "apex1\\local\\chatgpt\\chatgpt.ahk",
       "group": "Default"
     }
   ]

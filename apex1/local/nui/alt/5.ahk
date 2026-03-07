@@ -1,4 +1,4 @@
-!sc1D:: {
+!LCtrl:: {
     global booMaster
     booMaster := !booMaster
     if (booMaster)

@@ -1,4 +1,4 @@
-sc7B & sc1D:: {
+sc7B & LCtrl:: {
     fxPenMode(
         (*) => (send("^+{Delete}"), send("^+{d}")),
         (*) => send("{delete}")

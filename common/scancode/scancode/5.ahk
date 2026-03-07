@@ -1,4 +1,4 @@
-codeObj["lCtrl"] := "sc1D"
+codeObj["lCtrl"] := "LCtrl"
 codeObj["lWin"] := "sc15B"
 codeObj["lAlt"] := "sc38"
 codeObj["muhenkan"] := "sc7B"

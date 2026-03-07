@@ -11,11 +11,11 @@
     }
 }
 !q:: {
-    fxEdgeBookmark(3)
+    fxHnkX2EdgeBookmark(3)
 }
 !w:: {
-    fxEdgeBookmark(5)
+    fxHnkX2EdgeBookmark(5)
 }
 !e:: {
-    fxEdgeBookmark(7)
+    fxHnkX2EdgeBookmark(7)
 }

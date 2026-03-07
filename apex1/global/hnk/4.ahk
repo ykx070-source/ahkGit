@@ -1,23 +1,23 @@
 sc79 & sc2A:: {
-    fxSc2A()
+    fxHnkX2LShift()
 }
 
 sc79 & z:: {
-    fxZ()
+    fxHnkX2Z()
 }
 
 sc79 & x:: {
-    fxX()
+    fxHnkX2X()
 }
 
 sc79 & c:: {
-    fxC()
+    fxHnkX2C()
 }
 
 sc79 & v:: {
-    fxV()
+    fxHnkX2V()
 }
 
 sc79 & b:: {
-    fxB()
+    fxHnkX2B()
 }

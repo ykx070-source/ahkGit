@@ -1,21 +1,21 @@
-fxSc2A() {
+fxHnkX2LShift() {
     send("{Up}")
 }
 
-fxZ() {
+fxHnkX2Z() {
     send("^{Home}")
 }
 
-fxX() {
+fxHnkX2X() {
 }
 
-fxC() {
+fxHnkX2C() {
 }
 
-fxV() {
+fxHnkX2V() {
     send("^{End}")
 }
 
-fxB() {
+fxHnkX2B() {
     return
 }

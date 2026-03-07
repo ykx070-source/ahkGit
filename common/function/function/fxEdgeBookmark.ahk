@@ -1,4 +1,4 @@
-fxEdgeBookmark(No) {
+fxHnkX2EdgeBookmark(No) {
     Send("^t")       ; 新しいタブ
     Sleep(100)
     Send("{F6}")     ; アドレスバーへ

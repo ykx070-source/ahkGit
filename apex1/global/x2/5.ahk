@@ -1,13 +1,13 @@
-XButton2 & sc1D:: {
-    fxSc1D()
+XButton2 & LCtrl:: {
+    fxHnkX2LCtrl()
 }
 XButton2 & LWin:: {
 }
 XButton2 & LAlt:: {
 }
 XButton2 & sc07B:: {
-    fxSc07B()
+    fxHnkX2Muhenkan()
 }
 XButton2 & sc39:: {
-    fxSc39()
+    fxHnkX2Space()
 }
