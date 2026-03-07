@@ -1,6 +1,6 @@
-#HotIf booHkk && isApp("msedge")
+#HotIf booHkk && isApp("WindowsTerminal")
 
-#HotIf isApp("msedge")
+#HotIf isApp("WindowsTerminal")
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk
 #Include .\alt\3.ahk

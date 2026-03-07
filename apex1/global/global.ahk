@@ -16,6 +16,13 @@
 #Include .\muh\4.ahk
 #Include .\muh\5.ahk
 #Include .\muh\mouse.ahk
+; x2
+#Include .\x2\mouse.ahk
+#Include .\x2\1.ahk
+#Include .\x2\2.ahk
+#Include .\x2\3.ahk
+#Include .\x2\4.ahk
+#Include .\x2\5.ahk
 ; hnk
 #Include .\hnk\1.ahk
 #Include .\hnk\2.ahk
@@ -31,12 +38,5 @@
 #Include .\sft\1.ahk
 #Include .\sft\2.ahk
 #Include .\sft\5.ahk
-; x2
-#Include .\x2\mouse.ahk
-#Include .\x2\1.ahk
-#Include .\x2\2.ahk
-#Include .\x2\3.ahk
-#Include .\x2\4.ahk
-#Include .\x2\5.ahk
 ; x1
 #Include .\x1\mouse.ahk

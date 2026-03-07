@@ -1,6 +1,6 @@
-#HotIf booHkk && isVscode()
+#HotIf booHkk && isApp("code")
 #Include .\hkk\sol\sol.ahk
-#HotIf isVscode()
+#HotIf isApp("code")
 ; alt
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk

@@ -7,4 +7,5 @@
 #Include .\nui\nui.ahk ;power
 #Include .\power\power.ahk
 #Include .\pen\pen.ahk
-#Include .\exp\exp.ahk
+#Include .\explorer\explorer.ahk
+#Include .\terminal\terminal.ahk

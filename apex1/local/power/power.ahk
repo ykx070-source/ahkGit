@@ -1,7 +1,9 @@
-#HotIf booHkk && isPowerScreen()
+#HotIf booHkk && isApp("POWERPNT") || isApp("ScreenPaint")
 #Include .\hkk\sol\1.ahk
+#Include .\hkk\sol\2.ahk
+#Include .\hkk\sol\5.ahk
 #Include .\hkk\spc\1.ahk
-#HotIf isPowerScreen()
+#HotIf isApp("POWERPNT") || isApp("ScreenPaint")
 ; sol
 #Include .\sol\sol.ahk
 ; spc

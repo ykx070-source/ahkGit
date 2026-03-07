@@ -1,4 +1,4 @@
-#HotIf isScreen()
+#HotIf isApp("ScreenPaint")
 
 ; spc
 #Include .\spc\1.ahk

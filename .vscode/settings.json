@@ -32,6 +32,14 @@
     {
       "filePath": "apex1\\local\\edge\\edge.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "comment\\xxxMemo.bat",
+      "group": "Default"
+    },
+    {
+      "filePath": "apex1\\local\\explorer\\explorer.ahk",
+      "group": "Default"
     }
   ]
   // "editor.cursorWidth": 1,

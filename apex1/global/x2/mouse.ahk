@@ -2,9 +2,9 @@ XButton2 & LButton:: {
 }
 
 XButton2 & RButton:: {
-    fxRButton()
+    send("^{LButton}")
 }
 
 XButton2 & XButton1:: {
-    fxXButton1()
+    send("#{a}")
 }

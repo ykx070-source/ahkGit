@@ -6,7 +6,6 @@
 #Include .\function\right\3.ahk
 #Include .\function\right\4.ahk
 #Include .\function\right\5.ahk
-#Include .\function\right\mouse.ahk
 
 #Include .\function\fxAlwaysOnTop.ahk
 #Include .\function\fxEdgeBookmark.ahk
