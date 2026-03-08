@@ -1,5 +1,56 @@
 {
-  "favorites.showCurrentBranchGroup": false,
+  "workbench.activityBar.location": "top",
+  "editor.minimap.enabled": false,
+  "editor.stickyScroll.enabled": false,
+  "editor.formatOnSave": true,
+  // 標準折り畳みを無効化（{} を折り畳ませない）
+  "editor.autoIndent": "full",
+  "editor.formatOnType": true,
+  "editor.formatOnPaste": true,
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
+  "[bat]": {
+    "editor.wordWrap": "on"
+  },
+
+  // regionfolder 拡張の設定
+  "maptz.regionfolder": {
+    "[javascript]": {
+      "foldStart": "// #region",
+      "foldEnd": "// #endregion"
+    },
+    "[typescript]": {
+      "foldStart": "// #region",
+      "foldEnd": "// #endregion"
+    },
+    "[javascriptreact]": {
+      "foldStart": "{/* #region */}",
+      "foldEnd": "{/* #endregion */}"
+    }
+  },
+  "window.zoomLevel": 1,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "favoriteFolders.baseFolders": ["fa"],
+  "workbench.editor.restoreViewState": false,
+  "diffEditor.renderSideBySide": true,
+  // "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "accessibility.signals.terminalBell": {
+    "sound": "off",
+    "announcement": "off"
+  },
+  "accessibility.signalOptions.volume": 0,
+  "editor.hover.enabled": "off",
+  "workbench.editor.enablePreview": false,
+  "explorer.compactFolders": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "diffEditor.codeLens": true,
+  "explorer.sortOrder": "filesFirst",
+  "editor.mouseWheelZoom": true,
+  "editor.fontSize": 16,
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
   "favorites.resources": [
     {
       "filePath": "apex1\\global\\global.ahk",
@@ -30,10 +81,6 @@
       "group": "Default"
     },
     {
-      "filePath": "comment\\xxxMemo.bat",
-      "group": "Default"
-    },
-    {
       "filePath": "apex1\\local\\chatgpt\\chatgpt.ahk",
       "group": "Default"
     },
@@ -44,8 +91,46 @@
     {
       "filePath": "apex1\\apex1.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "globalMajor\\globalMajor.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "scancode\\scancode.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "local\\local.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "local\\power\\power.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "local\\vscode\\vscode.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "globalMinor\\globalMinor.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "globalHz\\globalHz.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "function\\function.ahk",
+      "group": "Default"
+    },
+    {
+      "filePath": "free\\xxxMemo.bat",
+      "group": "Default"
+    },
+    {
+      "filePath": "globalMajor\\muh\\5.ahk",
+      "group": "Default"
     }
   ]
-  // "editor.cursorWidth": 1,
-  // "editor.cursorStyle": "line"
 }

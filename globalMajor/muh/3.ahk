@@ -1,36 +1,36 @@
 sc7B & sc3A:: {
-    send("!{Left}")
+  send("!{Left}")
 }
 sc7B & a:: {
-    send("#{v}")
+  send("#{v}")
 }
 sc7B & s:: {
-    send("^!{f3}")
+  send("^!{f3}")
 }
 sc7B & d:: {
-    send("#{d}")
+  send("#{d}")
 }
 sc7B & f:: {
-    send("^{f}")
+  send("^{f}")
 }
 sc7B & g:: {
-    KeyHistory
+  send("#{m}")
 }
 
 sc7B & h:: {
 }
 sc7B & j:: {
-    send("{Home}")
+  send("{Home}")
 }
 sc7B & k:: {
-    send("{Left}")
+  send("{Left}")
 }
 sc7B & l:: {
-    send("{Right}")
+  send("{Right}")
 }
 sc7B & sc27:: {
-    send("{End}")
+  send("{End}")
 }
 sc7B & sc28:: {
-    send("{Down}")
+  send("{Down}")
 }

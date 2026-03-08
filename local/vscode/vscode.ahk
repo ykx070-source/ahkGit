@@ -1,4 +1,6 @@
 #HotIf fxIsApp("code")
+; sol
+#Include .\sol\sol.ahk
 ; alt
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk
@@ -9,7 +11,5 @@
 #Include .\x2\mouse.ahk
 ; x1
 #Include .\x1\mouse.ahk
-; sol
-#Include .\sol\sol.ahk
 
 #HotIf
