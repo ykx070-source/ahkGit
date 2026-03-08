@@ -9,6 +9,7 @@
 #Include .\function\fxPen.ahk
 #Include .\function\fxToggleHkk.ahk
 #Include .\function\plFxHotif.ahk
+#Include .\function\plFxState.ahk
 ; group
 #Include .\function\hnkX2\1.ahk
 #Include .\function\hnkX2\2.ahk
