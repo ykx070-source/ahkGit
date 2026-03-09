@@ -1,8 +1,5 @@
 space & LCtrl:: {
-  fxPenMode(
-    (*) => (send("^+{d}")),
-    (*) => send("{" codeObj["enter"] "}")
-  )
+  send("{enter}")
 }
 space & LWin:: {
   send("{F12}")

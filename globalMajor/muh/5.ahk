@@ -1,8 +1,5 @@
 sc7B & LCtrl:: {
-  fxPenMode(
-    (*) => (send("^+{Delete}"), send("^+{d}")),
-    (*) => send("{delete}")
-  )
+  send("{delete}")
 }
 sc7B & LWin:: {
 }
