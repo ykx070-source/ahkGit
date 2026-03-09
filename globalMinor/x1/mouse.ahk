@@ -6,7 +6,7 @@ XButton1 & WheelDown:: {
 }
 XButton1 & XButton2:: {
   if (A_ComputerName = "s") {
-    Sleep(500)
+    Sleep(1000)
     SendMessage(0x112, 0xF170, 2, , "Program Manager")
   } else {
     fxSleep()
