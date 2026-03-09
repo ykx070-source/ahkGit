@@ -5,5 +5,10 @@ XButton1 & WheelDown:: {
   send("{Volume_Down}")
 }
 XButton1 & XButton2:: {
-  fxSleep()
+  if (A_ComputerName = "s") {
+    SendMessage(0x112, 0xF170, 2, , "Program Manager")
+  } else {
+    fxSleep()
+  }
+
 }
