@@ -1,18 +1,18 @@
-sc79 & tab:: {
+$tab:: {
   fxMoveTab()
 }
-sc79 & q:: {
+$q:: {
   fxMoveQ()
 }
-sc79 & w:: {
+$w:: {
   fxMoveW()
 }
-sc79 & e:: {
+$e:: {
   fxMoveE()
 }
-sc79 & r:: {
+$r:: {
   fxMoveR()
 }
-sc79 & t:: {
+$t:: {
   fxMoveT()
 }

@@ -1,6 +1,5 @@
 ; sol
-#Include .\sol\basic.ahk
-#Include .\sol\num.ahk
+#Include .\sol\sol.ahk
 ; spc
 #Include .\spc\0.ahk
 #Include .\spc\1.ahk

@@ -1,47 +1,47 @@
-sc39 & sc3A:: {
-    fxPenMode(
-        (*) => send("^+{d}"),
-        (*) => (Send("{F10}"), Sleep(100), Send("{Enter}"))
-    )
+space & sc3A:: {
+  fxPenMode(
+    (*) => send("^+{d}"),
+    (*) => (Send("{F10}"), Sleep(100), Send("{Enter}"))
+  )
 }
-sc39 & a:: {
-    fxPenMode(
-        (*) => Send("^+{a}"),
-        (*) => Send("^{a}")
-    )
+space & a:: {
+  fxPenMode(
+    (*) => Send("^+{a}"),
+    (*) => Send("^{a}")
+  )
 }
-sc39 & s:: {
-    fxPenMode(
-        (*) => send("^+{l}"),
-        (*) => Send("^{s}")
-    )
+space & s:: {
+  fxPenMode(
+    (*) => send("^+{l}"),
+    (*) => Send("^{s}")
+  )
 }
-sc39 & d:: {
-    fxPenMode(
-        (*) => send("^+{r}"),
-        (*) => Send("^{d}")
-    )
+space & d:: {
+  fxPenMode(
+    (*) => send("^+{r}"),
+    (*) => Send("^{d}")
+  )
 }
-sc39 & f::AltTab
-sc39 & g:: {
-    send("^{y}")
+space & f::AltTab
+space & g:: {
+  send("^{y}")
 }
 
-sc39 & h:: {
-    send("{Home}")
+space & h:: {
+  send("{Home}")
 }
-sc39 & j:: {
-    send("^{Left}")
+space & j:: {
+  send("^{Left}")
 }
-sc39 & k:: {
-    send("{Left}")
+space & k:: {
+  send("{Left}")
 }
-sc39 & l:: {
-    send("{Right}")
+space & l:: {
+  send("{Right}")
 }
-sc39 & sc27:: {
-    send("^{Right}")
+space & sc27:: {
+  send("^{Right}")
 }
-sc39 & sc28:: {
-    send("{End}")
+space & sc28:: {
+  send("{End}")
 }

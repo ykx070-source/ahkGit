@@ -1,16 +1,16 @@
-; sc39 & LButton:: {
+; space & LButton:: {
 ; }
-; sc39 & RButton:: {
+; space & RButton:: {
 ;     Click "Left", 2
 ; }
-sc39 & WheelUp:: {
-    loop 5 {
-        Send("^+{up}")
-    }
+space & WheelUp:: {
+  loop 5 {
+    Send("^+{up}")
+  }
 }
 
-sc39 & WheelDown:: {
-    loop 5 {
-        Send("^+{down}")
-    }
+space & WheelDown:: {
+  loop 5 {
+    Send("^+{down}")
+  }
 }

@@ -1,33 +1,33 @@
-sc39 & q:: {
-    send("#{4}")
+space & q:: {
+  send("#{4}")
 }
-sc39 & w:: {
-    send("#{3}")
+space & w:: {
+  send("#{3}")
 }
-sc39 & e:: {
-    send("^+{c}")
+space & e:: {
+  send("^+{c}")
 }
-sc39 & r:: {
-    send("^+{r}")
+space & r:: {
+  send("^+{r}")
 }
-sc39 & t:: {
-    send("#{5}")
+space & t:: {
+  send("#{5}")
 }
 
-sc39 & y:: {
-    send("+{Home}")
+space & y:: {
+  send("+{Home}")
 }
-sc39 & u:: {
+space & u:: {
 }
-sc39 & i:: {
-    send("+{Left}")
+space & i:: {
+  send("+{Left}")
 }
-sc39 & o:: {
-    send("+{Right}")
+space & o:: {
+  send("+{Right}")
 }
-sc39 & p:: {
-    send("^+{Right}")
+space & p:: {
+  send("^+{Right}")
 }
-sc39 & sc1A:: {
-    send("+{End}")
+space & sc1A:: {
+  send("+{End}")
 }

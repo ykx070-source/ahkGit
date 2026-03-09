@@ -1,33 +1,33 @@
-sc39 & sc2A:: {
-    send("{Esc}")
+space & sc2A:: {
+  send("{Esc}")
 }
-sc39 & z:: {
-    send("^{z}")
+space & z:: {
+  send("^{z}")
 }
-sc39 & x:: {
-    send("^{x}")
+space & x:: {
+  send("^{x}")
 }
-sc39 & c:: {
-    send("^{c}")
+space & c:: {
+  send("^{c}")
 }
-sc39 & v:: {
-    send("^{v}")
+space & v:: {
+  send("^{v}")
 }
-sc39 & b:: {
-    send("^+{d}")
-    send("!{esc}")
+space & b:: {
+  send("^+{d}")
+  send("!{esc}")
 }
 
-sc39 & n:: {
-    send("{Up}")
+space & n:: {
+  send("{Up}")
 }
-sc39 & m:: {
-    send("^{Home}")
+space & m:: {
+  send("^{Home}")
 }
-sc39 & sc33:: {
-    send("^{End}")
+space & sc33:: {
+  send("^{End}")
 }
-sc39 & sc34:: {
+space & sc34:: {
 }
-sc39 & sc35:: {
+space & sc35:: {
 }

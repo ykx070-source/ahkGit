@@ -3,11 +3,11 @@
 #Include .\function\suspend.ahk
 ; fx
 #Include .\function\fxAlwaysOnTop.ahk
-#Include .\function\fxEdgeBookmark.ahk
 #Include .\function\fxText.ahk
 #Include .\function\fxPenMode.ahk
 #Include .\function\fxPen.ahk
 #Include .\function\fxToggleHkk.ahk
+#Include .\function\plFx.ahk
 #Include .\function\plFxHotif.ahk
 #Include .\function\plFxState.ahk
 ; group

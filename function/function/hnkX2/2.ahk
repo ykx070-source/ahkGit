@@ -1,17 +1,17 @@
-fxHnkX2Tab() {
-    send("+{Home}")
+fxMoveTab() {
+  send("+{Home}")
 }
-fxHnkX2Q() {
+fxMoveQ() {
 }
-fxHnkX2W() {
-    send("+{Left}")
+fxMoveW() {
+  send("+{Left}")
 }
-fxHnkX2E() {
-    send("+{Right}")
+fxMoveE() {
+  send("+{Right}")
 }
-fxHnkX2R() {
-    send("^+{Right}")
+fxMoveR() {
+  send("^+{Right}")
 }
-fxHnkX2T() {
-    send("+{End}")
+fxMoveT() {
+  send("+{End}")
 }

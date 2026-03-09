@@ -1,18 +1,18 @@
-fxHnkX2Capslock() {
-    send("{Home}")
+fxMoveCapslock() {
+  send("{Home}")
 }
-fxHnkX2A() {
-    send("^{Left}")
+fxMoveA() {
+  send("^{Left}")
 }
-fxHnkX2S() {
-    send("{Left}")
+fxMoveS() {
+  send("{Left}")
 }
-fxHnkX2D() {
-    send("{Right}")
+fxMoveD() {
+  send("{Right}")
 }
-fxHnkX2F() {
-    send("^{Right}")
+fxMoveF() {
+  send("^{Right}")
 }
-fxHnkX2G() {
-    send("{End}")
+fxMoveG() {
+  send("{End}")
 }

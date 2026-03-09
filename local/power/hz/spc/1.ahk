@@ -1,4 +1,4 @@
-sc39 & 1:: {
-    fxToggleHkk()
-    Send("!{f8}")
+space & 1:: {
+  fxToggleHkk()
+  Send("!{f8}")
 }

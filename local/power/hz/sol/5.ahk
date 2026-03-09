@@ -1,4 +1,4 @@
-$sc39:: {
-    fxToggleHkk()
-    Send("!+{f5}")
+$space:: {
+  fxToggleHkk()
+  Send("!+{f5}")
 }

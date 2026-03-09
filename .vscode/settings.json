@@ -117,10 +117,6 @@
       "group": "Default"
     },
     {
-      "filePath": "globalHz\\globalHz.ahk",
-      "group": "Default"
-    },
-    {
       "filePath": "function\\function.ahk",
       "group": "Default"
     },
@@ -129,7 +125,7 @@
       "group": "Default"
     },
     {
-      "filePath": "globalMajor\\muh\\5.ahk",
+      "filePath": "globalBoo\\globalBoo.ahk",
       "group": "Default"
     }
   ]

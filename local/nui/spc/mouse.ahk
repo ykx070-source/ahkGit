@@ -1,12 +1,12 @@
-; sc39 & LButton:: {
+; space & LButton:: {
 ; }
-; sc39 & RButton:: {
+; space & RButton:: {
 ;     Click "Left", 2
 ; }
-; sc39 & WheelUp:: {
+; space & WheelUp:: {
 ;     Send("!hfg")
 ; }
 
-; sc39 & WheelDown:: {
+; space & WheelDown:: {
 ;     Send("!hfk")
 ; }

@@ -1,5 +1,5 @@
-sc39 & LButton:: {
+space & LButton:: {
 }
-sc39 & RButton:: {
-    Click "Left", 2
+space & RButton:: {
+  Click "Left", 2
 }

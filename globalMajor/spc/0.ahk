@@ -1,9 +1,9 @@
-    sc39 & f1:: {
+    space & f1:: {
       fxSleep()
     }
-    sc39 & f2:: {
+    space & f2:: {
       fxShutdown()
     }
-    sc39 & f3:: {
+    space & f3:: {
       fxRestart()
     }

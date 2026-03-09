@@ -1,4 +1,4 @@
-#HotIf fxIsApp("POWERPNT") || fxIsApp("ScreenPaint")
+#HotIf fxIsApp("POWERPNT")
 ; sol
 #Include .\sol\sol.ahk
 ; spc

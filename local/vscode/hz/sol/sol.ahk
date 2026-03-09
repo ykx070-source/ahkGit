@@ -1,8 +1,8 @@
 $1:: {
-    fxToggleHkk()
-    send("{j}")
+  fxToggleHkk()
+  send("{j}")
 }
-sc39 & 1:: {
-    fxToggleHkk()
-    send("{p}")
+space & 1:: {
+  fxToggleHkk()
+  send("{p}")
 }

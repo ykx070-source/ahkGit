@@ -1,23 +1,23 @@
 sc79 & sc2A:: {
-    fxHnkX2LShift()
+  fxMoveLShift()
 }
 
 sc79 & z:: {
-    fxHnkX2Z()
+  fxMoveZ()
 }
 
 sc79 & x:: {
-    fxHnkX2X()
+  fxMoveX()
 }
 
 sc79 & c:: {
-    fxHnkX2C()
+  fxMoveC()
 }
 
 sc79 & v:: {
-    fxHnkX2V()
+  fxMoveV()
 }
 
 sc79 & b:: {
-    fxHnkX2B()
+  fxMoveB()
 }

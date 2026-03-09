@@ -8,14 +8,7 @@ global timerEnabled := false
 SetTimer(guiIme, 100)
 guiIme() {
   global myGui, prevImeState, penMode, prevBgColor, booHkk, prevWindowState, booF1
-  ; appId
-  ; rowAppId := WinGetProcessName("A")
-  ; appId := StrReplace(rowAppId, ".exe")
-  ; if (rowAppId != prevWindowState) {
-  ;     fxHotkey(normalAppIdObjObj, false, "On")
-  ; }
-  ; prevWindowState := rowAppId
-  if penMode
+  if booF1
     bgColor := "FF0000"  ; 赤
   else if booHkk
     bgColor := "0000FF"  ; 青

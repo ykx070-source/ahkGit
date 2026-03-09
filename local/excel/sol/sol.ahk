@@ -1,0 +1,3 @@
+LWin:: {
+  fxExcelReset()
+}

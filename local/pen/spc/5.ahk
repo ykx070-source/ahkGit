@@ -1,15 +1,15 @@
-sc39 & LCtrl:: {
-    send("{enter}")
+space & LCtrl:: {
+  send("{enter}")
 }
-sc39 & LWin:: {
-    send("{F12}")
+space & LWin:: {
+  send("{F12}")
 }
-sc39 & sc38:: {
-    send("{F11}")
+space & sc38:: {
+  send("{F11}")
 }
-sc39 & sc7B:: {
-    send("{F2}")
+space & sc7B:: {
+  send("{F2}")
 }
 
-sc39 & sc79:: {
+space & sc79:: {
 }

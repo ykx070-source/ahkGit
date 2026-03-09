@@ -1,4 +1,4 @@
-sc39:: {
+space:: {
   send("{tab}")
   send("{r}")
   Sleep(200)

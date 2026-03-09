@@ -1,16 +1,16 @@
-sc39 & tab:: {
+space & tab:: {
   send("{" codeObj["hankaku"] "}")
 }
-sc39 & q:: {
+space & q:: {
   send("#{4}")
 }
-sc39 & w:: {
+space & w:: {
   send("#{3}")
 }
-sc39 & e:: {
+space & e:: {
   send("#{2}")
 }
-sc39 & r:: {
+space & r:: {
   targetClass := "PPTFrameClass"
   targetExe := "POWERPNT.exe"
 
@@ -31,24 +31,24 @@ sc39 & r:: {
   }
   ; send("#{1}")
 }
-sc39 & t:: {
+space & t:: {
   send("{0}")
 }
 
-sc39 & y:: {
+space & y:: {
   send("+{Home}")
 }
-sc39 & u:: {
+space & u:: {
 }
-sc39 & i:: {
+space & i:: {
   send("+{Left}")
 }
-sc39 & o:: {
+space & o:: {
   send("+{Right}")
 }
-sc39 & p:: {
+space & p:: {
   send("^+{Right}")
 }
-sc39 & sc1A:: {
+space & sc1A:: {
   send("+{End}")
 }
