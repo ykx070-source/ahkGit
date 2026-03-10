@@ -1,4 +1,4 @@
-$f:: {
+$a:: {
   fxFalseHz()
   fxText("とは？")
 }
@@ -9,4 +9,8 @@ $d:: {
 $s:: {
   fxFalseHz()
   fxText("なぜ")
+}
+$f:: {
+  fxFalseHz()
+  fxText("はい")
 }
