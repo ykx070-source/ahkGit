@@ -1,10 +1,6 @@
 LWin:: {
   send("+!{p}")
 }
-
-MButton:: {
-  ; send("+!{;}")
-}
 XButton1:: {
   Click "Left", 2
   Sleep(100)

@@ -11,5 +11,4 @@ XButton1 & XButton2:: {
   } else {
     fxSleep()
   }
-
 }

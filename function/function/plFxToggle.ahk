@@ -1,10 +1,15 @@
-global booHkk := false
-fxToggleHkk() {
-  global booHkk
-  booHkk := false
+global isHz := false
+global isEsc := false
+global isShow := false
+fxFalseHz() {
+  global isHz
+  isHz := false
 }
-global booF1 := false
-fxToggleF1() {
-  global booF1, booHkk
-  booF1 := false
+fxFalseF1() {
+  global isEsc
+  isEsc := false
+}
+fxFalseMbutton() {
+  global isShow
+  isShow := false
 }

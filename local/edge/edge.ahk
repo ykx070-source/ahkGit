@@ -1,3 +1,11 @@
+#HotIf fxIsTitle("ChatGPT")
+#Include .\altChatgpt\1.ahk
+#Include .\altChatgpt\2.ahk
+
+#HotIf fxIsTitle("YouTube")
+#Include .\solYoutube\sol.ahk
+#Include .\x2Youtube\mouse.ahk
+
 #HotIf fxIsApp("msedge")
 #Include .\alt\1.ahk
 #Include .\alt\2.ahk

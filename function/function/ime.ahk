@@ -7,11 +7,13 @@ global timerEnabled := false
 ; global appId := ""
 SetTimer(guiIme, 100)
 guiIme() {
-  global myGui, prevImeState, penMode, prevBgColor, booHkk, prevWindowState, booF1
-  if booF1
+  global myGui, prevImeState, penMode, prevBgColor, isHz, prevWindowState, isEsc, isShow
+  if isEsc
     bgColor := "FF0000"  ; 赤
-  else if booHkk
+  else if isHz
     bgColor := "0000FF"  ; 青
+  else if isShow
+    bgColor := "00FF00"  ; 緑
   else
     bgColor := "FFFFAA"  ; 黄色
 

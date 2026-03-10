@@ -127,6 +127,10 @@
     {
       "filePath": "globalBoo\\globalBoo.ahk",
       "group": "Default"
+    },
+    {
+      "filePath": "local\\edge\\edge.ahk",
+      "group": "Default"
     }
   ]
 }

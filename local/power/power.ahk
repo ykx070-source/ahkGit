@@ -1,3 +1,6 @@
+#HotIf fxIsClass("NUIDialog")
+#Include .\solNui\sol.ahk
+
 #HotIf fxIsApp("POWERPNT")
 ; sol
 #Include .\sol\sol.ahk
@@ -13,4 +16,11 @@
 #Include .\x2\mouse.ahk
 #Include .\x1\mouse.ahk
 
+#HotIf isShow
+#Include .\f1\sol\mouse.ahk
+#Include .\f1\sol\1.ahk
+#Include .\f1\sol\2.ahk
+#Include .\f1\sol\3.ahk
+#Include .\f1\sol\4.ahk
+#Include .\f1\sol\5.ahk
 #HotIf

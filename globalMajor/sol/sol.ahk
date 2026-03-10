@@ -1,26 +1,28 @@
-; 0
-$f1:: {
-  global booF1, booHkk
-  booF1 := !booF1
-  booHkk := false
+; toggle
+$esc:: {
+  global isEsc, isHz, isShow
+  isEsc := !isEsc
+  isHz := false
+  isShow := false
 }
 $f2:: {
-  BlockInput("MouseMove")
 }
-; 1
 $sc29:: hankakuAlone()
 $vkF4:: hankakuAlone()
 hankakuAlone() {
-  global booF1, booHkk
-  booHkk := !booHkk
-  booF1 := false
+  global isEsc, isHz, isShow
+  isHz := !isHz
+  isEsc := false
+  isShow := false
 }
 ; 2
-$tab:: send("{" codeObj["backspace"] "}")
-
+$tab:: {
+  send("{backspace}")
+}
 ; 3
-$sc3A:: send("{" codeObj["space"] "}")
-
+$sc3A:: {
+  send("{space}")
+}
 ; 5
 LWin:: {
   send("^{Enter}")

@@ -1,8 +1,8 @@
 $1:: {
-  fxToggleHkk()
+  fxFalseHz()
   send("{j}")
 }
 space & 1:: {
-  fxToggleHkk()
+  fxFalseHz()
   send("{p}")
 }

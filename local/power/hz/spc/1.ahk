@@ -1,4 +1,4 @@
 space & 1:: {
-  fxToggleHkk()
+  fxFalseHz()
   Send("!{f8}")
 }

@@ -1,12 +1,12 @@
 $f:: {
-    fxToggleHkk()
-    fxText("とは？")
+  fxFalseHz()
+  fxText("とは？")
 }
 $d:: {
-    fxToggleHkk()
-    fxText("うまくいかない")
+  fxFalseHz()
+  fxText("うまくいかない")
 }
 $s:: {
-    fxToggleHkk()
-    fxText("なぜ")
+  fxFalseHz()
+  fxText("なぜ")
 }
