@@ -1,20 +1,9 @@
 fxAltHankakuExplorer() {
-  {
-    for window in ComObject("Shell.Application").Windows {
-      try
-      {
-        if window.HWND = WinActive("A") {
-          window.Navigate("shell:Downloads")
-          return
-        }
-      }
-    }
-  }
+  fxPath("shell:Downloads")
 }
 !sc29:: fxAltHankakuExplorer()
 !vk19:: fxAltHankakuExplorer()
 !1:: {
-  fxMoveEdgeBookmark(2)
 }
 !2:: {
   fxMoveEdgeBookmark(4)

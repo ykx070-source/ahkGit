@@ -82,3 +82,15 @@ fxAlwaysOnTop() {
 
   lastHwnd := hwnd
 }
+
+fxPath(path) {
+  for window in ComObject("Shell.Application").Windows {
+    try
+    {
+      if window.HWND = WinActive("A") {
+        window.Navigate(path)
+        return
+      }
+    }
+  }
+}
