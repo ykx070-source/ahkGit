@@ -18,14 +18,13 @@ guiIme() {
     bgColor := "FFFFAA"  ; 黄色
 
   try {
-    vcurrentwindow := WinGetID("A")
-    imeWnd := DllCall("imm32\ImmGetDefaultIMEWnd", "ptr", vcurrentwindow, "ptr")
-    ImeState := DllCall("user32\SendMessageW", "ptr", imeWnd, "uint", 0x0283, "int", 0x0005, "int", 0, "ptr")
+
+    isImeOn := fxIsImeOn()
 
     if (A_ComputerName = "s") {
-      xPos := (ImeState = 0) ? 1350 : 0
+      xPos := (!isImeOn) ? 1350 : 0
     } else if (A_ComputerName = "d") {
-      xPos := (ImeState = 0) ? 1000 : 0
+      xPos := (!isImeOn) ? 1000 : 0
     } else {
       xPos := 0
     }
@@ -39,11 +38,11 @@ guiIme() {
     }
 
     ; ===== 更新用の条件付き =====
-    if (!IsObject(myGui) || bgColor != prevBgColor || ImeState != prevImeState) {
+    if (!IsObject(myGui) || bgColor != prevBgColor || isImeOn != prevImeState) {
       myGui.BackColor := bgColor
       myGui.Show("x" xPos " y0 w5000 h30 NA")
       prevBgColor := bgColor
-      prevImeState := ImeState
+      prevImeState := isImeOn
     }
   }
 }

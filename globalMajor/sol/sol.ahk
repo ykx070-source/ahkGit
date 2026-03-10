@@ -6,9 +6,6 @@ $esc:: {
   isShow := false
 }
 $f2:: {
-  ImmGetContext := DllCall("imm32\ImmGetContext", "ptr", WinActive("A"), "ptr")
-  DllCall("imm32\ImmSetOpenStatus", "ptr", ImmGetContext, "int", 0)
-  DllCall("imm32\ImmReleaseContext", "ptr", WinActive("A"), "ptr", ImmGetContext)
 }
 $sc29:: hankakuAlone()
 $vkF4:: hankakuAlone()

@@ -7,8 +7,8 @@ $f1:: {
   }
   else {
     Send("!{f5}")
-    ; Sleep(500)
     send("^{p}")
+    fxImeOff()
   }
   isShow := !isShow
 }
