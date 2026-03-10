@@ -1,17 +1,16 @@
 $sc3A:: {
-  send("{Space}")
+  ; send("{Space}")
 }
 $a:: {
-  send("{e}")
+  send("{left}")
 }
 $s:: {
-  fxMoveS()
 }
 $d:: {
-  fxMoveD()
+  ; send("^{i}")
 }
 $f:: {
-  send("^{p}")
+  send("{Right}")
 }
 $g:: {
   fxMoveG()

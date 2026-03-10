@@ -5,7 +5,10 @@ $f1:: {
     Sleep(100)
     Send("{esc}")
   }
-  else
+  else {
     Send("!{f5}")
+    ; Sleep(500)
+    send("^{p}")
+  }
   isShow := !isShow
 }

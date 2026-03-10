@@ -1,15 +1,13 @@
-!sc29:: {
+fxAltHzEdge() {
   fxMoveEdgeBookmark(0)
 }
-!vk19:: {
-  fxMoveEdgeBookmark(0)
-}
+!sc29:: fxAltHzEdge()
+!vk19:: fxAltHzEdge()
 !1:: {
-  fxMoveEdgeBookmark(2)
+  fxMoveEdgeBookmark(1)
 }
 !2:: {
-  fxMoveEdgeBookmark(4)
+  fxMoveEdgeBookmark(2)
 }
 !3:: {
-  fxMoveEdgeBookmark(6)
 }

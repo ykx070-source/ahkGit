@@ -1,5 +1,5 @@
 $LCtrl:: {
-  send("{Volume_Down}")
+  send("{e}")
 }
 $LWin:: {
 }
