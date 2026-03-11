@@ -7,6 +7,10 @@ $esc:: {
 }
 $f2:: {
 }
+$f3:: {
+}
+$f4:: {
+}
 $sc29:: hankakuAlone()
 $vkF4:: hankakuAlone()
 hankakuAlone() {
