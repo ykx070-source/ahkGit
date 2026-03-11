@@ -5,13 +5,12 @@ $LWin:: {
 $LAlt:: {
 }
 $sc7B:: {
+  global isShow
+  isShow := false
   loop 4 {
     Sleep(200)
     Send("{esc}")
   }
-
-  global isShow
-  isShow := false
 }
 $space:: {
   send("{e}")
