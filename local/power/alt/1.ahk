@@ -8,7 +8,6 @@ fxAltHankakuPower() {
 !sc29:: fxAltHankakuPower()
 !vk19:: fxAltHankakuPower()
 !1:: {
-  Send("!+{f5}")
 }
 !2:: {
   send("!{9}")

@@ -6,4 +6,7 @@
 }
 !w:: {
   Send("!jnua")
+  Send("{Home}")
+  Send("{Down}")
+  Send("{Enter}")
 }
