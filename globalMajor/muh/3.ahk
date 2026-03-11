@@ -5,7 +5,10 @@ sc7B & a:: {
   send("#{v}")
 }
 sc7B & s:: {
-  send("^!{f3}")
+  fxMachine(
+    (*) => send("^!{f3}"),
+    (*) => send("^!{f1}")
+  )
 }
 sc7B & d:: {
   send("#{d}")

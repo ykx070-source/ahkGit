@@ -1,30 +1,31 @@
 global manualSuspend := false
 global autoSuspend := false
 
-if (A_ComputerName = "d") {
-    SetTimer(ShowMousePos, 50)
-}
+fxMachine(
+  (*) => SetTimer(ShowMousePos, 50),
+  (*) => 0,
+)
 
 ShowMousePos() {
-    global autoSuspend
+  global autoSuspend
 
-    MouseGetPos(&x, &y)
-    hwnd := WinExist("A")
+  MouseGetPos(&x, &y)
+  hwnd := WinExist("A")
 
-    if hwnd {
-        WinGetPos(&winX, &winY, &W, &H, hwnd)
-        positionY := y + winY
-    } else {
-        positionY := 0
-    }
+  if hwnd {
+    WinGetPos(&winX, &winY, &W, &H, hwnd)
+    positionY := y + winY
+  } else {
+    positionY := 0
+  }
 
-    ; 自動判定だけを更新
-    autoSuspend := (positionY < 4.01)
+  ; 自動判定だけを更新
+  autoSuspend := (positionY < 4.01)
 
-    UpdateSuspend()
+  UpdateSuspend()
 }
 
 UpdateSuspend() {
-    global manualSuspend, autoSuspend
-    Suspend(manualSuspend || autoSuspend)
+  global manualSuspend, autoSuspend
+  Suspend(manualSuspend || autoSuspend)
 }

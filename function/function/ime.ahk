@@ -13,21 +13,19 @@ fxTimerIme() {
     bgColor := "00FF00"  ; 緑
   else
     bgColor := "FFFFAA"  ; 黄
-
   isImeOn := fxIsImeOn()
-  if A_ComputerName = "s"
-    xPos := (!isImeOn) ? 1350 : 0
-  else if A_ComputerName = "d"
-    xPos := (!isImeOn) ? 1000 : 0
-  else
-    xPos := 0
+  xPos := 0
+  fxMachine(
+    (*) => xPos := (!isImeOn) ? 1000 : 0,
+    (*) => xPos := (!isImeOn) ? 1350 : 0,
+  )
   ; ===== 初回GUI生成 =====
   if (!IsObject(guiIme)) {
     guiIme := Gui("+AlwaysOnTop +ToolWindow -Caption")
     guiIme.SetFont("s10")
     WinSetTransparent(100, guiIme.Hwnd)
     WinSetExStyle("+0x20", guiIme.Hwnd)
-    ; Send("a")
+    DllCall("SystemParametersInfo", "uint", 0x57, "uint", 0, "ptr", 0, "uint", 0)
   }
   ; ===== 更新用の条件付き =====
   if (!IsObject(guiIme) || bgColor != prevBgColor || isImeOn != prevIsImeOn) {
@@ -36,7 +34,11 @@ fxTimerIme() {
     prevBgColor := bgColor
     prevIsImeOn := isImeOn
 
-    h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32515, "ptr") ; cross
-    DllCall("SetSystemCursor", "ptr", h1, "uint", 32513) ; vertical
+    if (isImeOn) {
+      h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32515, "ptr") ; vertical
+      DllCall("SetSystemCursor", "ptr", h1, "uint", 32513) ; cross
+    } else {
+      DllCall("SystemParametersInfo", "uint", 0x57, "uint", 0, "ptr", 0, "uint", 0)
+    }
   }
 }

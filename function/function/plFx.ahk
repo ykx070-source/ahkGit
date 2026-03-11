@@ -1,3 +1,9 @@
+fxMachine(fxD, fxS) {
+  if (A_ComputerName = "d")
+    fxD()
+  else if (A_ComputerName = "s")
+    fxS()
+}
 fxIsImeOn() {
   try {
     vcurrentwindow := WinGetID("A")
