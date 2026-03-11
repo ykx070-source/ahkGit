@@ -7,7 +7,7 @@ sc7B & a:: {
 sc7B & s:: {
   fxMachine(
     (*) => send("^!{f3}"),
-    (*) => send("^!{f1}")
+    (*) => MouseMove(A_ScreenWidth // 2, A_ScreenWidth // -2, 0)
   )
 }
 sc7B & d:: {
