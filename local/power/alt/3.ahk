@@ -1,8 +1,9 @@
 !sc3A:: {
-  Send("!{f5}")
+  Send("!as")
+  Send("{Down}")
+  Send("{Enter}")
 }
 !a:: {
-  Send("!+{f5}")
 }
 !s:: {
 }

@@ -1,4 +1,5 @@
 XButton2 & LButton:: {
+  send("^{LButton}")
 }
 XButton2 & RButton:: {
   Send "{Esc}"
@@ -9,10 +10,10 @@ XButton2 & RButton:: {
   Send "{LButton up}"
 }
 XButton2 & WheelUp:: {
-  Send("{Left}")
+  Send("!hfg")
 }
 XButton2 & WheelDown:: {
-  Send("{Right}")
+  Send("!hfk")
 }
 XButton2 & XButton1:: {
   send("+!{p}") ;エクスプローラーにフォーカス
