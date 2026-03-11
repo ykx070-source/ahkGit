@@ -2,8 +2,8 @@ sc2A & sc38:: {
   guiIme.Destroy()
 }
 sc2A & space:: {
-  h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32513, "ptr") ; on text cross
-  DllCall("SetSystemCursor", "ptr", h1, "uint", 32515) ; off text
+  h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32513, "ptr") ; vertical
+  DllCall("SetSystemCursor", "ptr", h1, "uint", 32515) ; cross
   fxImeOff()
   Reload()
 }

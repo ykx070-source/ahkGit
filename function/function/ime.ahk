@@ -36,7 +36,7 @@ fxTimerIme() {
     prevBgColor := bgColor
     prevIsImeOn := isImeOn
 
-    h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32515, "ptr") ; on text cross
-    DllCall("SetSystemCursor", "ptr", h1, "uint", 32513) ; off text I
+    h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32515, "ptr") ; cross
+    DllCall("SetSystemCursor", "ptr", h1, "uint", 32513) ; vertical
   }
 }

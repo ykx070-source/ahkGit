@@ -1,17 +1,18 @@
 $LCtrl:: {
-  send("{e}")
 }
 $LWin:: {
 }
 $LAlt:: {
 }
 $sc7B:: {
-  fxMoveMuhenkan()
-}
-$space:: {
+  loop 4 {
+    Sleep(200)
+    Send("{esc}")
+  }
+
   global isShow
   isShow := false
-  Send("{esc}")
-  Sleep(100)
-  Send("{esc}")
+}
+$space:: {
+  send("{e}")
 }
