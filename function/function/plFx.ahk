@@ -1,8 +1,10 @@
 fxIsImeOn() {
-  vcurrentwindow := WinGetID("A")
-  imeWnd := DllCall("imm32\ImmGetDefaultIMEWnd", "ptr", vcurrentwindow, "ptr")
-  ImeState := DllCall("user32\SendMessageW", "ptr", imeWnd, "uint", 0x0283, "int", 0x0005, "int", 0, "ptr")
-  return (ImeState = 1)
+  try {
+    vcurrentwindow := WinGetID("A")
+    imeWnd := DllCall("imm32\ImmGetDefaultIMEWnd", "ptr", vcurrentwindow, "ptr")
+    ImeState := DllCall("user32\SendMessageW", "ptr", imeWnd, "uint", 0x0283, "int", 0x0005, "int", 0, "ptr")
+    return (ImeState = 1)
+  }
 }
 fxImeOff() {
   isImeOn := fxIsImeOn()

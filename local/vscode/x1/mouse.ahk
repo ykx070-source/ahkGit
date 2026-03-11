@@ -1,3 +1,6 @@
+; XButton1 & RButton:: {
+
+; }
 ; XButton1 & WheelUp:: {
 ;     send("+{WheelUp}")
 ; }

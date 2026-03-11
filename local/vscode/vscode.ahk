@@ -11,5 +11,7 @@
 #Include .\x2\mouse.ahk
 ; x1
 #Include .\x1\mouse.ahk
+; spc
+#Include .\spc\mouse.ahk
 
 #HotIf
