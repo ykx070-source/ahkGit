@@ -27,7 +27,7 @@ fxTimerIme() {
     guiIme.SetFont("s10")
     WinSetTransparent(100, guiIme.Hwnd)
     WinSetExStyle("+0x20", guiIme.Hwnd)
-
+    ; Send("a")
   }
   ; ===== 更新用の条件付き =====
   if (!IsObject(guiIme) || bgColor != prevBgColor || isImeOn != prevIsImeOn) {
@@ -36,9 +36,6 @@ fxTimerIme() {
     prevBgColor := bgColor
     prevIsImeOn := isImeOn
 
-    h2 := DllCall("LoadCursor", "ptr", 0, "ptr", 32651, "ptr") ; on normal
-    DllCall("SetSystemCursor", "ptr", h2, "uint", 32512) ;off normal arrow
-    ; text
     h1 := DllCall("LoadCursor", "ptr", 0, "ptr", 32515, "ptr") ; on text cross
     DllCall("SetSystemCursor", "ptr", h1, "uint", 32513) ; off text I
   }

@@ -2,10 +2,10 @@
 #Include .\function\ime.ahk
 #Include .\function\suspend.ahk
 ; fx
+#Include .\function\plFx.ahk
 #Include .\function\plFxToggle.ahk
 #Include .\function\plFxHotif.ahk
 #Include .\function\plFxState.ahk
-#Include .\function\plFx.ahk
 ; group
 #Include .\function\move\1.ahk
 #Include .\function\move\2.ahk
