@@ -1,8 +1,8 @@
-hankakuSpc() {
+fxSpcHzGlobal() {
   send("!{f4}")
 }
-space & sc29:: hankakuSpc()
-space & vkF4:: hankakuSpc()
+space & sc29:: fxSpcHzGlobal()
+space & vkF4:: fxSpcHzGlobal()
 
 space & 1:: {
   send("{6}")

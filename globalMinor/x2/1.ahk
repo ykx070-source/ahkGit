@@ -1,8 +1,9 @@
-XButton2 & sc29:: {
-    send("#{Left}")
+fxX2HzGlobal() {
 }
+XButton2 & sc29:: fxX2HzGlobal()
+XButton2 & vkF4:: fxX2HzGlobal()
+
 XButton2 & 1:: {
-    send("#{Right}")
 }
 XButton2 & 2:: {
 }

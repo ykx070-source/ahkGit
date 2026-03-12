@@ -1,6 +1,5 @@
-+sc29:: {
+fxSftHzGlobal() {
   send("+#{s}")
 }
-+vkF4:: {
-  send("+#{s}")
-}
++sc29:: fxSftHzGlobal()
++vkF4:: fxSftHzGlobal()

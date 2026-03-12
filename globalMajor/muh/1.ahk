@@ -1,14 +1,11 @@
-sc7B & sc29:: {
+fxMuhHzGlobal() {
   Send("#{Up}")
   ; send("!{space}") ;maximize
   ; sleep(800)
   ; send("{x}")
 }
-sc7B & vkF4:: {
-  send("!{space}") ;maximize
-  sleep(200)
-  send("{x}")
-}
+sc7B & sc29:: fxMuhHzGlobal()
+sc7B & vkF4:: fxMuhHzGlobal()
 sc7B & 1:: {
   send("#{v}") ;back1
   sleep(800)
