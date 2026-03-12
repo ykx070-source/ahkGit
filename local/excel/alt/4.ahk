@@ -1,4 +1,5 @@
 !LShift:: {
+  fxExcelFavo(4)
 }
 !z:: {
 }

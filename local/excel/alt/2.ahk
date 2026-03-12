@@ -1,5 +1,5 @@
 !tab:: {
-  Send("!{2}")
+  fxExcelFavo(2)
 }
 !q:: {
 }

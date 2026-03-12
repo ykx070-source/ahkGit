@@ -1,13 +1,14 @@
 fxAltHzExcel() {
-  Send("!{1}")
+  fxExcelFavo(1)
 }
 
 !sc29:: fxAltHzExcel()
 !vk19:: fxAltHzExcel()
 !1:: {
-  fxExcelReset()
+  Send("!{1}")
 }
 !2:: {
+  Send("!{2}")
 }
 !3:: {
 }

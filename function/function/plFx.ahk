@@ -52,6 +52,12 @@ fxExcelReset() {
   send("{Enter}")
   sleep(10)
 }
+fxExcelFavo(num) {
+  fxExcelReset()
+  loop num {
+    Send("^{PgUp}")
+  }
+}
 fxAlwaysOnTop() {
   static overlay := 0
   static lastHwnd := 0
