@@ -1,5 +1,5 @@
 $LShift:: {
-  send("{Volume_Up}")
+  Send("{Up}")
 }
 
 $z:: {

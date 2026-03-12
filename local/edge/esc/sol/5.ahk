@@ -1,14 +1,14 @@
 $LCtrl:: {
-  send("{Volume_Down}")
+  Send("{Down}")
 }
 $LWin:: {
 }
 $LAlt:: {
 }
 $sc7B:: {
-  fxMoveMuhenkan()
-}
-$space:: {
   global isEsc
   isEsc := false
+}
+$space:: {
+  send("{Space}")
 }

@@ -2,16 +2,16 @@ fxMoveCapslock() {
   send("{Home}")
 }
 fxMoveA() {
-  send("^{Left}")
-}
-fxMoveS() {
   send("{Left}")
 }
+fxMoveS() {
+  send("^{Left}")
+}
 fxMoveD() {
-  send("{Right}")
+  send("^{Right}")
 }
 fxMoveF() {
-  send("^{Right}")
+  send("{Right}")
 }
 fxMoveG() {
   send("{End}")

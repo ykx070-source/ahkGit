@@ -1,21 +1,20 @@
 XButton1 & LShift:: {
-  fxMoveLShift()
 }
 
 XButton1 & z:: {
-  fxMoveZ()
+  send("!jpaek") ;最背面
 }
 
 XButton1 & x:: {
-  fxMoveX()
+  send("!jpaeb") ;背面
 }
 
 XButton1 & c:: {
-  fxMoveC()
+  send("!jpaff") ;前面
 }
 
 XButton1 & v:: {
-  fxMoveV()
+  send("!jpafr") ;最前面
 }
 
 XButton1 & b:: {

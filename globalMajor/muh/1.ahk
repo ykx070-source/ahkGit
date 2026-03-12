@@ -1,7 +1,8 @@
 sc7B & sc29:: {
-  send("!{space}") ;maximize
-  sleep(800)
-  send("{x}")
+  Send("#{Up}")
+  ; send("!{space}") ;maximize
+  ; sleep(800)
+  ; send("{x}")
 }
 sc7B & vkF4:: {
   send("!{space}") ;maximize

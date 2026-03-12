@@ -7,8 +7,7 @@ $LAlt:: {
 $sc7B:: {
   global isShow
   isShow := false
-  loop 4 {
-    Sleep(200)
+  loop 5 {
     Send("{esc}")
   }
 }

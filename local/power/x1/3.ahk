@@ -7,6 +7,9 @@ XButton1 & a:: {
   Send("{esc}")
 }
 XButton1 & s:: {
+  Send("!as") ;アニメ登録
+  Send("{Down}")
+  Send("{Enter}")
 }
 XButton1 & d:: {
 }

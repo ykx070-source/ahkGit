@@ -11,5 +11,4 @@ fxAltHzPower() {
 !2:: {
 }
 !3:: {
-  send("!jpaek") ;最背面
 }

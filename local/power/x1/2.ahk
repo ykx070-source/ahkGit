@@ -13,10 +13,15 @@ XButton1 & e:: {
 XButton1 & r:: {
   Send("!as")
   Send("{Down}")
-  ; Send("!jnua") ;自動再生
-  ; Send("{Home}")
-  ; Send("{Down}")
-  ; Send("{Enter}")
+  Send("{Enter}")
+  Send("!at")
+  Send("{Home}")
+  Send("{Down}")
+  Send("{Enter}")
+  loop 4 {
+    Send("!ae")
+    Sleep(100)
+  }
 }
 XButton1 & t:: {
   send("!jpc") ;動画トリム

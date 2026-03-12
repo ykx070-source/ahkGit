@@ -105,7 +105,6 @@ fxAlwaysOnTop() {
 
   lastHwnd := hwnd
 }
-
 fxPath(path) {
   for window in ComObject("Shell.Application").Windows {
     try
@@ -116,4 +115,18 @@ fxPath(path) {
       }
     }
   }
+}
+fxSlideShow(ac) {
+  global isShow
+  if isShow {
+    Send("{esc}")
+    Sleep(100)
+    Send("{esc}")
+  }
+  else {
+    Send(ac)
+    send("^{p}")
+    fxImeOff()
+  }
+  isShow := !isShow
 }
