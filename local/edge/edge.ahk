@@ -1,6 +1,7 @@
 #HotIf fxIsTitle("ChatGPT")
 #Include .\altChatgpt\1.ahk
 #Include .\altChatgpt\2.ahk
+#Include .\altChatgpt\3.ahk
 
 #HotIf fxIsTitle("YouTube")
 #Include .\solYoutube\sol.ahk

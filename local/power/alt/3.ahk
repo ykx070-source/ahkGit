@@ -1,13 +1,10 @@
 !sc3A:: {
-  Send("!as")
-  Send("{Down}")
-  Send("{Enter}")
+  Send("!ae") ;順番前に
 }
 !a:: {
-  Send("!a")
-  Sleep(100)
-  Send("{esc}")
-  Send("{esc}")
+  Send("!al") ;順番後に
 }
 !s:: {
+}
+!d:: {
 }

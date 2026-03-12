@@ -1,4 +1,4 @@
-$sc2A:: {
+$LShift:: {
   send("{Volume_Up}")
 }
 

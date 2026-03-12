@@ -1,16 +1,17 @@
 !tab:: {
-    send("+!{r}") ;フォルダ内検索
-    Sleep(100)
-    send("^+{h}") ;フォルダ内置換
-    Sleep(100)
-    Send("{Enter}")
-    Sleep(100)
-    Send("{tab}")
-    Sleep(100)
-    Send("^{a}")
+  send("+!{r}") ;フォルダ内検索
+  Sleep(100)
+  send("^+{h}") ;フォルダ内置換
+  Sleep(100)
+  Send("{Enter}")
+  Sleep(100)
+  Send("{tab}")
+  Sleep(100)
+  Send("^{a}")
 }
 !q:: {
-    send("+!{y}") ;favorite
+  send("+!{p}") ;expFocus
 }
 !w:: {
+  send("+!{y}") ;favorite
 }

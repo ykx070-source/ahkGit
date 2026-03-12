@@ -1,4 +1,4 @@
-XButton2 & sc2A:: {
+XButton2 & LShift:: {
   fxMoveLShift()
 }
 

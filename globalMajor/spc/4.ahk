@@ -1,4 +1,4 @@
-space & sc2A:: {
+space & LShift:: {
   send("{Esc}")
 }
 space & z:: {

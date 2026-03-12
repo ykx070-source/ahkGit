@@ -1,4 +1,4 @@
-sc79 & sc2A:: {
+sc79 & LShift:: {
   fxMoveLShift()
 }
 

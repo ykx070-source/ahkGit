@@ -1,36 +1,36 @@
-sc7B & sc2A:: {
-    send("{" codeObj["tab"] "}")
+sc7B & LShift:: {
+  send("{" codeObj["tab"] "}")
 }
 sc7B & z:: {
-    send("#{5}")
-    ; send("^{enter}")
+  send("#{5}")
+  ; send("^{enter}")
 }
 sc7B & x:: {
-    send("#{6}")
+  send("#{6}")
 }
 sc7B & c:: {
-    send("#{7}")
-    ; WinActivate("ahk_exe ScreenPaint.exe")
-    ; Sleep(100)
-    ; send("^+{l}")
+  send("#{7}")
+  ; WinActivate("ahk_exe ScreenPaint.exe")
+  ; Sleep(100)
+  ; send("^+{l}")
 }
 sc7B & v:: {
-    send("#{8}")
+  send("#{8}")
 }
 sc7B & b:: {
-    Run A_AhkPath "\..\WindowSpy.ahk"
+  Run A_AhkPath "\..\WindowSpy.ahk"
 }
 sc7B & n:: {
 }
 sc7B & m:: {
-    send("+{home}")
+  send("+{home}")
 }
 sc7B & sc33:: {
-    send("+{left}")
+  send("+{left}")
 }
 sc7B & sc34:: {
-    send("+{right}")
+  send("+{right}")
 }
 sc7B & sc35:: {
-    send("+{end}")
+  send("+{end}")
 }

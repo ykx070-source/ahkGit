@@ -1,6 +1,6 @@
 global booMaster := false
-!sc2A:: {
-  global booMaster
+!LShift:: {
+  global booMaster ;マスター切替
   booMaster := !booMaster
   if (booMaster)
     Send("!wm")  ;slideMaster
@@ -10,4 +10,7 @@ global booMaster := false
 !z:: {
 }
 !x:: {
+}
+
+!c:: {
 }

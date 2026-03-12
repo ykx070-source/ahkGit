@@ -1,4 +1,4 @@
-!sc2A:: {
+!LShift:: {
   send("+!{o}")  ;onlyOne
 }
 !z:: {

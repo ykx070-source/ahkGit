@@ -1,4 +1,4 @@
-codeObj["lShift"] := "sc2A"
+codeObj["lShift"] := "LShift"
 codeObj["z"] := "sc2C"
 codeObj["x"] := "sc2D"
 codeObj["c"] := "sc2E"

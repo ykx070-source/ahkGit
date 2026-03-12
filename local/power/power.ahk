@@ -12,9 +12,16 @@
 #Include .\alt\3.ahk
 #Include .\alt\4.ahk
 #Include .\alt\5.ahk
+; win
+#Include .\win\1.ahk
+#Include .\win\2.ahk
+#Include .\win\3.ahk
+#Include .\win\4.ahk
 ; x2
 #Include .\x2\mouse.ahk
 #Include .\x1\mouse.ahk
+; ctl
+#Include .\ctl\5.ahk
 
 #HotIf isShow
 #Include .\f1\sol\mouse.ahk

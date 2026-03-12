@@ -1,12 +1,12 @@
-sc2A & sc38:: {
++sc38:: {
   guiIme.Destroy()
 }
-sc2A & space:: {
++space:: {
   fxImeOff()
   Reload()
 }
 #SuspendExempt
-sc2A & sc7B:: {
++sc7B:: {
   global manualSuspend
   manualSuspend := !manualSuspend
   UpdateSuspend()

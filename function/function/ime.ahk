@@ -1,9 +1,17 @@
 global guiIme := 0
-global prevIsImeOn := -1
 global prevBgColor := ""
+global prevIsImeOn := -1
+global prevActiveWindow := ""
 SetTimer(fxTimerIme, 100)
+
+ReStartImeTimer() {
+  SetTimer(fxTimerIme, 100)
+}
+
 fxTimerIme() {
-  global guiIme, prevIsImeOn, prevBgColor
+  global guiIme, prevIsImeOn, prevBgColor, prevActiveWindow
+
+  try activeWindow := WinGetProcessName("A")
 
   if isEsc
     bgColor := "FF0000"  ; 赤
@@ -28,7 +36,7 @@ fxTimerIme() {
     DllCall("SystemParametersInfo", "uint", 0x57, "uint", 0, "ptr", 0, "uint", 0)
   }
   ; ===== 更新用の条件付き =====
-  if (!IsObject(guiIme) || bgColor != prevBgColor || isImeOn != prevIsImeOn) {
+  if (bgColor != prevBgColor || isImeOn != prevIsImeOn) {
     guiIme.BackColor := bgColor
     guiIme.Show("x" xPos " y0 w5000 h30 NA")
     prevBgColor := bgColor
@@ -41,4 +49,11 @@ fxTimerIme() {
       DllCall("SystemParametersInfo", "uint", 0x57, "uint", 0, "ptr", 0, "uint", 0)
     }
   }
+  ; if (activeWindow != prevActiveWindow) {
+  ;   if WinActive("ahk_exe POWERPNT.EXE") {
+  ;     Send("!wqp80{Enter}")
+  ;   }
+  ;   ; MsgBox activeWindow
+  ;   prevActiveWindow := activeWindow
+  ; }
 }

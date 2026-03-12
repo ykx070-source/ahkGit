@@ -6,6 +6,7 @@ $esc:: {
   isShow := false
 }
 $f2:: {
+
 }
 $f3:: {
 }
@@ -28,6 +29,9 @@ $sc3A:: {
   send("{space}")
 }
 ; 5
-LWin:: {
-  send("^{Enter}")
-}
+; LWin:: {
+;   send("^{Enter}")
+; }
+
+; LWin:: {
+; }
