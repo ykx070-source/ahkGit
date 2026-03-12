@@ -7,7 +7,6 @@ fxAltHzPower() {
 !sc29:: fxAltHzPower()
 !vk19:: fxAltHzPower()
 !1:: {
-  Send("!nzmvp") ;ファイル挿入
 }
 !2:: {
   send("!jpc") ;動画トリム

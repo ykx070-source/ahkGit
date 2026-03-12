@@ -1,4 +1,3 @@
-global booMaster := false
 !LShift:: {
 }
 !z:: {
