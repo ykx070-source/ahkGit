@@ -1,6 +1,10 @@
 XButton1 & sc3A:: {
 }
 XButton1 & a:: {
+  Send("!a") ;アニメ
+  Sleep(100)
+  Send("{esc}")
+  Send("{esc}")
 }
 XButton1 & s:: {
 }

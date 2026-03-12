@@ -13,7 +13,7 @@ TraySetIcon "shell32.dll", 44
 #Include .\scancode\scancode.ahk
 #Include .\function\function.ahk
 ; main
+#Include .\local\local.ahk
 #Include .\globalMajor\globalMajor.ahk
 #Include .\globalMinor\globalMinor.ahk
 #Include .\globalBoo\globalBoo.ahk
-#Include .\local\local.ahk

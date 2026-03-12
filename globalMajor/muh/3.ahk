@@ -5,7 +5,6 @@ sc7B & a:: {
   send("#{v}")
 }
 sc7B & s:: {
-  send("^!{f3}")
 }
 sc7B & d:: {
   send("#{d}")

@@ -8,11 +8,16 @@ XButton1 & w:: {
   fxMoveW()
 }
 XButton1 & e:: {
-  fxMoveE()
+  Send("!jnl") ;動画ループ
 }
 XButton1 & r:: {
-  fxMoveR()
+  Send("!as")
+  Send("{Down}")
+  ; Send("!jnua") ;自動再生
+  ; Send("{Home}")
+  ; Send("{Down}")
+  ; Send("{Enter}")
 }
 XButton1 & t:: {
-  fxMoveT()
+  send("!jpc") ;動画トリム
 }

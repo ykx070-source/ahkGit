@@ -9,7 +9,6 @@ fxAltHzPower() {
 !1:: {
 }
 !2:: {
-  send("!jpc") ;動画トリム
 }
 !3:: {
   send("!jpaek") ;最背面
