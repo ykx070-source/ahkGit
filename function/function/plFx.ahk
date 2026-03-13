@@ -136,7 +136,7 @@ fxVscodeJump(fileName) {
   Send("^+p")
   Send("{Backspace}")
   SendText(fileName ".ahk")
-  Sleep(100)
+  Sleep(300)
   Send("{Enter}")
   Sleep(100)
   send("+!{f}") ;エクスプローラーを折り畳む
