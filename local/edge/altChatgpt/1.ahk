@@ -3,4 +3,4 @@ fxAltHzChatgpt() {
   send("^+{o}")
 }
 Alt & sc29:: fxAltHzChatgpt()
-Alt & vkF4:: fxAltHzChatgpt()
+Alt & vk19:: fxAltHzChatgpt()
