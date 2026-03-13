@@ -117,8 +117,8 @@ fxPath(path) {
   }
 }
 fxSlideShow(ac) {
-  global isShow
-  if isShow {
+  global isPresen
+  if isPresen {
     Send("{esc}")
     Sleep(100)
     Send("{esc}")
@@ -128,5 +128,22 @@ fxSlideShow(ac) {
     send("^{p}")
     fxImeOff()
   }
-  isShow := !isShow
+  isPresen := !isPresen
+}
+fxVscodeJump(fileName) {
+  Send("^+p")
+  Send("{Backspace}")
+  SendText(fileName ".ahk")
+  Sleep(100)
+  Send("{Enter}")
+  Sleep(100)
+  send("+!{q}") ;close other tabs
+  sleep(10)
+  send("+!{f}") ;エクスプローラーを折り畳む
+  sleep(10)
+  send("+!{f}") ;エクスプローラーを折り畳む
+  sleep(10)
+  send("+!{4}") ;現在のファイルを表示する
+  sleep(10)
+  send("+!{3}") ;お気に入りを折り畳む
 }

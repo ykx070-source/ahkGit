@@ -13,11 +13,11 @@ fxTimerIme() {
 
   try activeWindow := WinGetProcessName("A")
 
-  if isEsc
+  if isWatch
     bgColor := "FF0000"  ; 赤
-  else if isHz
+  else if isText
     bgColor := "0000FF"  ; 青
-  else if isShow
+  else if isPresen
     bgColor := "00FF00"  ; 緑
   else
     bgColor := "FFFFAA"  ; 黄

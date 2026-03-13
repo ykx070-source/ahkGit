@@ -1,20 +1,16 @@
-; toggle
+; 0
 $esc:: {
+  fxToggleMode("watch")
+}
+$f1:: {
 }
 $f2:: {
-
 }
-$f3:: {
-}
-$f4:: {
-}
+; 1
 $sc29:: fxNoneHzGlobal()
 $vkF4:: fxNoneHzGlobal()
 fxNoneHzGlobal() {
-  global isEsc, isHz, isShow
-  isHz := !isHz
-  isEsc := false
-  isShow := false
+  fxToggleMode("text")
 }
 ; 2
 $tab:: {
@@ -24,10 +20,3 @@ $tab:: {
 $sc3A:: {
   send("{space}")
 }
-; 5
-; LWin:: {
-;   send("^{Enter}")
-; }
-
-; LWin:: {
-; }

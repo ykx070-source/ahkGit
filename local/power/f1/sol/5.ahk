@@ -5,9 +5,8 @@ $LWin:: {
 $LAlt:: {
 }
 $sc7B:: {
-  global isShow
-  isShow := false
-  loop 5 {
+  fxFalsePresen()
+  loop 4 {
     Send("{esc}")
   }
 }

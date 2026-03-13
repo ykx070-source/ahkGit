@@ -1,16 +1,16 @@
 $a:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("とは？")
 }
 $d:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("うまくいかない")
 }
 $s:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("なぜ")
 }
 $f:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("はい")
 }

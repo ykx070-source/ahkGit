@@ -1,11 +1,11 @@
 $1:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("()")
   send("{Left}")
 }
 $2:: {
-  fxFalseHz()
+  fxFalseText()
 }
 $3:: {
-  fxFalseHz()
+  fxFalseText()
 }

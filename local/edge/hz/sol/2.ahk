@@ -1,14 +1,14 @@
 $q:: {
-  fxFalseHz()
+  fxFalseText()
 }
 $w:: {
-  fxFalseHz()
+  fxFalseText()
 }
 $e:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("わかりやすく教えて")
 }
 $r:: {
-  fxFalseHz()
+  fxFalseText()
   fxText("簡潔に")
 }

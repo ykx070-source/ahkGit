@@ -1,10 +1,10 @@
 global booMaster := false
 $1:: {
-  fxFalseHz()
+  fxFalseText()
   Send("!{f8}")
 }
 $2:: {
-  fxFalseHz()
+  fxFalseText()
   global booMaster
   booMaster := !booMaster
   if (booMaster)

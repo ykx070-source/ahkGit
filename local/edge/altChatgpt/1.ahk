@@ -1,8 +1,6 @@
-!sc29:: {
-    send("{Esc}")
-    send("^+{o}")
+fxAltHzChatgpt() {
+  send("{Esc}")
+  send("^+{o}")
 }
-!vk19:: {
-    send("{Esc}")
-    send("^+{o}")
-}
+!sc29:: fxAltHzChatgpt()
+!vkF4:: fxAltHzChatgpt()

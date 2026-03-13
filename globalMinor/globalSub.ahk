@@ -22,3 +22,8 @@
 #Include .\sft\5.ahk
 ; x1
 #Include .\x1\mouse.ahk
+
+#HotIf isText
+#Include .\hz\sol\1.ahk
+
+#HotIf

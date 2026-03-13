@@ -1,8 +1,7 @@
 $tab:: {
-  fxMoveTab()
+  Send("a")
 }
 $q:: {
-  fxMoveQ()
 }
 $w:: {
   fxMoveW()

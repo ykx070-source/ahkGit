@@ -101,22 +101,6 @@
       "group": "Default"
     },
     {
-      "filePath": "local\\local.ahk",
-      "group": "Default"
-    },
-    {
-      "filePath": "local\\power\\power.ahk",
-      "group": "Default"
-    },
-    {
-      "filePath": "local\\vscode\\vscode.ahk",
-      "group": "Default"
-    },
-    {
-      "filePath": "globalMinor\\globalMinor.ahk",
-      "group": "Default"
-    },
-    {
       "filePath": "function\\function.ahk",
       "group": "Default"
     },
@@ -125,11 +109,11 @@
       "group": "Default"
     },
     {
-      "filePath": "globalBoo\\globalBoo.ahk",
+      "filePath": "local\\edge\\edge.ahk",
       "group": "Default"
     },
     {
-      "filePath": "local\\edge\\edge.ahk",
+      "filePath": "local\\edge\\edgeSub.ahk",
       "group": "Default"
     }
   ]

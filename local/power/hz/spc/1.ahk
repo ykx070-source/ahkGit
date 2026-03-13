@@ -1,4 +1,4 @@
 space & 1:: {
-  fxFalseHz()
+  fxFalseText()
   Send("!{f8}")
 }

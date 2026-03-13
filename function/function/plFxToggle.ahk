@@ -1,15 +1,22 @@
-global isHz := false
-global isEsc := false
-global isShow := false
-fxFalseHz() {
-  global isHz
-  isHz := false
+global isText := false
+global isWatch := false
+global isPresen := false
+fxFalseText() {
+  global isText
+  isText := false
 }
-fxFalseF1() {
-  global isEsc
-  isEsc := false
+fxFalseWatch() {
+  global isWatch
+  isWatch := false
 }
-fxFalseMbutton() {
-  global isShow
-  isShow := false
+fxFalsePresen() {
+  global isPresen
+  isPresen := false
+}
+
+fxToggleMode(mode) {
+  global isText, isWatch, isPresen
+  isText := (mode = "text") ? !isText : false
+  isWatch := (mode = "watch") ? !isWatch : false
+  isPresen := (mode = "presen") ? !isPresen : false
 }

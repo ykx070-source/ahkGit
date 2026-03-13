@@ -1,4 +1,4 @@
 $space:: {
-  fxFalseHz()
+  fxFalseText()
   Send("!+{f5}")
 }

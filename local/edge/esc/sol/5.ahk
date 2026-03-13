@@ -3,11 +3,10 @@ $LCtrl:: {
 }
 $LWin:: {
 }
-$LAlt:: {
-}
+; $LAlt:: {
+; }
 $sc7B:: {
-  global isEsc
-  isEsc := false
+  fxFalseWatch()
 }
 $space:: {
   send("{Space}")
