@@ -131,14 +131,14 @@ fxSlideShow(ac) {
   isPresen := !isPresen
 }
 fxVscodeJump(fileName) {
+  send("+!{q}") ;close other tabs
+  sleep(10)
   Send("^+p")
   Send("{Backspace}")
   SendText(fileName ".ahk")
   Sleep(100)
   Send("{Enter}")
   Sleep(100)
-  send("+!{q}") ;close other tabs
-  sleep(10)
   send("+!{f}") ;エクスプローラーを折り畳む
   sleep(10)
   send("+!{f}") ;エクスプローラーを折り畳む

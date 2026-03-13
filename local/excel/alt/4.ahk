@@ -1,10 +1,10 @@
-!LShift:: {
+Alt & Shift:: {
   fxExcelFavo(4)
 }
-!z:: {
+Alt & z:: {
 }
-!x:: {
+Alt & x:: {
 }
 
-!c:: {
+Alt & c:: {
 }

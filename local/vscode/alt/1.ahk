@@ -3,12 +3,12 @@ fxAltHzVscode() {
   Sleep(100)
   Send("{Enter}")
 }
-!sc29:: fxAltHzVscode()
-!vk19:: fxAltHzVscode()
-!1:: {
+Alt & sc29:: fxAltHzVscode()
+Alt & vk19:: fxAltHzVscode()
+Alt & 1:: {
   send("+!{2}") ;複製
 }
-!2:: {
+Alt & 2:: {
   send("^!{Enter}")
   Sleep(100)
   send("{Enter}")

@@ -1,9 +1,9 @@
-!sc3A:: {
+Alt & sc3A:: {
   fxExcelFavo(3)
 }
-!a:: {
+Alt & a:: {
 }
-!s:: {
+Alt & s:: {
 }
-!d:: {
+Alt & d:: {
 }

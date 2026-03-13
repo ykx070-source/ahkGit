@@ -1,9 +1,9 @@
-!LCtrl:: {
-    send("+!{v}")  ; Shift + sc38 + V
-    sleep(10)
+Alt & LCtrl:: {
+  send("+!{v}")  ; Shift + LAlt + V
+  sleep(10)
 }
 
-!LWin:: {
-    send("+!{n}")  ; Shift + sc38 + N
-    sleep(10)
+Alt & LWin:: {
+  send("+!{n}")  ; Shift + LAlt + N
+  sleep(10)
 }

@@ -3,7 +3,7 @@ sc7B & LCtrl:: {
 }
 sc7B & LWin:: {
 }
-sc7B & sc38:: {
+sc7B & LAlt:: {
 }
 sc7B & space:: {
   KeyHistory

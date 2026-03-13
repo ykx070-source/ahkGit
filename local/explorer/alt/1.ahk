@@ -1,13 +1,13 @@
 fxAltHankakuExplorer() {
   fxPath("shell:Downloads")
 }
-!sc29:: fxAltHankakuExplorer()
-!vk19:: fxAltHankakuExplorer()
-!1:: {
+Alt & sc29:: fxAltHankakuExplorer()
+Alt & vk19:: fxAltHankakuExplorer()
+Alt & 1:: {
 }
-!2:: {
+Alt & 2:: {
   fxMoveEdgeBookmark(4)
 }
-!3:: {
+Alt & 3:: {
   fxMoveEdgeBookmark(6)
 }

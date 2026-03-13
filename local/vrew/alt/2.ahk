@@ -1,4 +1,4 @@
-!tab:: {
+Alt & tab:: {
   loop 3 {
     send("{Left}")
   }
@@ -6,12 +6,12 @@
   send("{Space}")
   sleep(100)
 }
-!q:: {
+Alt & q:: {
   fxMoveEdgeBookmark(3)
 }
-!w:: {
+Alt & w:: {
   fxMoveEdgeBookmark(5)
 }
-!e:: {
+Alt & e:: {
   fxMoveEdgeBookmark(7)
 }

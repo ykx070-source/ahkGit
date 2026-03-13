@@ -1,12 +1,10 @@
-LShift & sc38:: {
+Shift & LAlt:: {
   guiIme.Destroy()
 }
-LShift & space:: {
-  fxImeOff()
-  Reload()
+Shift & space:: {
 }
 #SuspendExempt
-LShift & sc7B:: {
+Shift & sc7B:: {
   global manualSuspend
   manualSuspend := !manualSuspend
   UpdateSuspend()

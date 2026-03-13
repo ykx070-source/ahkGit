@@ -1,18 +1,18 @@
-!LShift:: {
-  send("+!{o}")  ; Shift + sc38 + O
+Alt & Shift:: {
+  send("+!{o}")  ; Shift + LAlt + O
   sleep(10)
 }
 
-!z:: {
-  send("+!{f}")  ; Shift + sc38 + F
+Alt & z:: {
+  send("+!{f}")  ; Shift + LAlt + F
   sleep(10)
-  send("+!{e}")  ; Shift + sc38 + E
+  send("+!{e}")  ; Shift + LAlt + E
   sleep(10)
-  send("+!{l}")  ; Shift + sc38 + L
+  send("+!{l}")  ; Shift + LAlt + L
   sleep(10)
 }
 
-!x:: {
+Alt & x:: {
   send("^+k")  ; LCtrl + Shift + K
   sleep(10)
 }

@@ -1,10 +1,10 @@
-!tab:: {
+Alt & tab:: {
   send("+!{n}") ;normalPip
 }
-!q:: {
+Alt & q:: {
   send("+!{v}") ;allPip
 }
-!w:: {
+Alt & w:: {
   Send("!d")
   Send("^a")
   Send("^c")
@@ -42,5 +42,5 @@
 
   Run(cmd)
 }
-!e:: {
+Alt & e:: {
 }

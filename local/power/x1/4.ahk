@@ -1,4 +1,4 @@
-XButton1 & LShift:: {
+XButton1 & Shift:: {
 }
 
 XButton1 & z:: {

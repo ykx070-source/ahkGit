@@ -1,4 +1,4 @@
-!LCtrl:: {
+Alt & LCtrl:: {
 }
-!LWin:: {
+Alt & LWin:: {
 }

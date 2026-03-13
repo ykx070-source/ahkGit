@@ -1,10 +1,10 @@
-!tab:: {
+Alt & tab:: {
 
   fxPath(A_MyDocuments)
 }
-!q:: {
+Alt & q:: {
 }
-!w:: {
+Alt & w:: {
 }
-!e:: {
+Alt & e:: {
 }

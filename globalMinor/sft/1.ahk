@@ -1,5 +1,5 @@
 fxSftHzGlobal() {
   send("+#{s}")
 }
-LShift & sc29:: fxSftHzGlobal()
-LShift & vkF4:: fxSftHzGlobal()
+Shift & sc29:: fxSftHzGlobal()
+Shift & vkF4:: fxSftHzGlobal()

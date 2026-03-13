@@ -1,5 +1,4 @@
 $sc3A:: {
-  send("{Space}")
 }
 $a:: {
   fxMoveA()
@@ -7,6 +6,7 @@ $a:: {
 $s:: {
 }
 $d:: {
+  send("f")
 }
 $f:: {
   fxMoveF()

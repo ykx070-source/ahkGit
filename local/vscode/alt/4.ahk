@@ -1,7 +1,7 @@
-!LShift:: {
+Alt & Shift:: {
   send("^{/}") ; コメントアウト
 }
-!z:: {
+Alt & z:: {
   send("^{1}") ;editor focus
   Sleep(100)
   send("{esc}")
@@ -14,6 +14,6 @@
   Sleep(100)
 }
 
-!x:: {
+Alt & x:: {
   send("+!{o}") ;タスク
 }

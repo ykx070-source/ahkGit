@@ -1,10 +1,10 @@
-!sc3A:: {
+Alt & sc3A:: {
   send("+!{l}")   ;onlyLeft
   sleep(10)
 }
 
-!a:: {
+Alt & a:: {
 }
 
-!s:: {
+Alt & s:: {
 }

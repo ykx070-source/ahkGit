@@ -3,8 +3,8 @@ $LCtrl:: {
 }
 $LWin:: {
 }
-; $LAlt:: {
-; }
+$LAlt:: {
+}
 $sc7B:: {
   fxFalseWatch()
 }

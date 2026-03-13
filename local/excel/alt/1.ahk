@@ -2,13 +2,13 @@ fxAltHzExcel() {
   fxExcelFavo(1)
 }
 
-!sc29:: fxAltHzExcel()
-!vk19:: fxAltHzExcel()
-!1:: {
+Alt & sc29:: fxAltHzExcel()
+Alt & vk19:: fxAltHzExcel()
+Alt & 1:: {
   Send("!{1}")
 }
-!2:: {
+Alt & 2:: {
   Send("!{2}")
 }
-!3:: {
+Alt & 3:: {
 }

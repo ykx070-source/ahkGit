@@ -1,5 +1,5 @@
-sc79 & LShift:: {
-  fxMoveLShift()
+sc79 & Shift:: {
+  fxMoveShift()
 }
 
 sc79 & z:: {

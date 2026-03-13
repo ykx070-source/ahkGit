@@ -1,4 +1,4 @@
-fxMoveLShift() {
+fxMoveShift() {
   send("{Up}")
 }
 

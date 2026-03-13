@@ -1,9 +1,9 @@
-!LShift:: {
+Alt & Shift:: {
   send("+!{o}")  ;onlyOne
 }
-!z:: {
+Alt & z:: {
   send("!{m}")
 }
-!x:: {
+Alt & x:: {
   send("!{b}")
 }

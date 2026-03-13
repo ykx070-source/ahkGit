@@ -4,7 +4,7 @@ space & LCtrl:: {
 space & LWin:: {
   send("{F12}")
 }
-space & sc38:: {
+space & LAlt:: {
   send("{F11}")
 }
 space & sc7B:: {

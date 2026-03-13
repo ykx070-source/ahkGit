@@ -1,10 +1,10 @@
-!sc3A:: {
+Alt & sc3A:: {
   Send("!ae") ;順番前に
 }
-!a:: {
+Alt & a:: {
   Send("!al") ;順番後に
 }
-!s:: {
+Alt & s:: {
 }
-!d:: {
+Alt & d:: {
 }

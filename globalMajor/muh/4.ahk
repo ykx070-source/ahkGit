@@ -1,4 +1,4 @@
-sc7B & LShift:: {
+sc7B & Shift:: {
   send("{" codeObj["tab"] "}")
 }
 sc7B & z:: {

@@ -1,3 +1,3 @@
-!tab:: {
-    send("^{k}")
+Alt & tab:: {
+  send("^{k}")
 }

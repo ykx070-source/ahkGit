@@ -5,6 +5,8 @@ sc7B & a:: {
   send("#{v}")
 }
 sc7B & s:: {
+  fxImeOff()
+  Reload()
 }
 sc7B & d:: {
   send("#{d}")

@@ -1,9 +1,9 @@
-!tab:: {
+Alt & tab:: {
   Send("!hfc") ;テキスト色
 }
-!q:: {
+Alt & q:: {
 }
-!w:: {
+Alt & w:: {
 }
-!e:: {
+Alt & e:: {
 }

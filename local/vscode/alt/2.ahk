@@ -1,4 +1,4 @@
-!tab:: {
+Alt & tab:: {
   send("+!{r}") ;フォルダ内検索
   Sleep(100)
   send("^+{h}") ;フォルダ内置換
@@ -9,9 +9,9 @@
   Sleep(100)
   Send("^{a}")
 }
-!q:: {
+Alt & q:: {
   send("+!{p}") ;expFocus
 }
-!w:: {
+Alt & w:: {
   send("+!{y}") ;favorite
 }

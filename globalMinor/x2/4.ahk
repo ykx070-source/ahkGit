@@ -1,5 +1,5 @@
-XButton2 & LShift:: {
-  fxMoveLShift()
+XButton2 & Shift:: {
+  fxMoveShift()
 }
 
 XButton2 & z:: {

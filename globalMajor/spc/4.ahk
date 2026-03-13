@@ -1,4 +1,4 @@
-space & LShift:: {
+space & Shift:: {
   send("{Esc}")
 }
 space & z:: {

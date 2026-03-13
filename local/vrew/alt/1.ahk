@@ -1,4 +1,4 @@
-!sc29:: {
+Alt & sc29:: {
   send("+{Enter}")
   sleep(100)
   send("{Enter}")
@@ -6,14 +6,14 @@
   send("{Delete}")
   sleep(100)
 }
-!vk19:: {
+Alt & vk19:: {
 }
-!1:: {
+Alt & 1:: {
   fxMoveEdgeBookmark(2)
 }
-!2:: {
+Alt & 2:: {
   fxMoveEdgeBookmark(4)
 }
-!3:: {
+Alt & 3:: {
   fxMoveEdgeBookmark(6)
 }

@@ -1,4 +1,4 @@
-$LShift:: {
+$Shift:: {
   send("{Volume_Up}")
 }
 

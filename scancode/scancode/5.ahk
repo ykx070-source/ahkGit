@@ -1,6 +1,6 @@
 codeObj["lCtrl"] := "LCtrl"
 codeObj["lWin"] := "sc15B"
-codeObj["lAlt"] := "sc38"
+codeObj["lAlt"] := "LAlt"
 codeObj["muhenkan"] := "sc7B"
 codeObj["space"] := "space"
 codeObj["henkan"] := "sc79"

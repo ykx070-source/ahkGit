@@ -4,11 +4,11 @@ fxAltHzPower() {
   Send("!{f8}")
 }
 
-!sc29:: fxAltHzPower()
-!vk19:: fxAltHzPower()
-!1:: {
+Alt & sc29:: fxAltHzPower()
+Alt & vk19:: fxAltHzPower()
+Alt & 1:: {
 }
-!2:: {
+Alt & 2:: {
 }
-!3:: {
+Alt & 3:: {
 }

@@ -1,7 +1,7 @@
-!tab:: {
+Alt & tab:: {
   fxExcelFavo(2)
 }
-!q:: {
+Alt & q:: {
 }
-!w:: {
+Alt & w:: {
 }

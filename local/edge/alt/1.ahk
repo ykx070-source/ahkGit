@@ -1,14 +1,14 @@
 fxAltHzEdge() {
   Send("^e")
 }
-!sc29:: fxAltHzEdge()
-!vk19:: fxAltHzEdge()
-!1:: {
+Alt & sc29:: fxAltHzEdge()
+Alt & vk19:: fxAltHzEdge()
+Alt & 1:: {
   fxMoveEdgeBookmark(1)
 }
-!2:: {
+Alt & 2:: {
   fxMoveEdgeBookmark(2)
 }
-!3:: {
+Alt & 3:: {
   Send("!d")
 }

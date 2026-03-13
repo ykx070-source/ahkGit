@@ -1,5 +1,5 @@
 global booMaster := false
-!LShift:: {
+Alt & Shift:: {
   global booMaster ;マスター切替
   booMaster := !booMaster
   if (booMaster)
@@ -7,10 +7,10 @@ global booMaster := false
   else
     Send("!mc") ;slideMasterClose
 }
-!z:: {
+Alt & z:: {
 }
-!x:: {
+Alt & x:: {
 }
 
-!c:: {
+Alt & c:: {
 }
