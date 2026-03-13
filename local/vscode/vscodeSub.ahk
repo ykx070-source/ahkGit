@@ -9,11 +9,11 @@
 #Include .\x1\4.ahk
 #Include .\x1\5.ahk
 
-; #HotIf fxIsApp("code") && isText
-; #Include .\hz\1.ahk
-; #Include .\hz\2.ahk
-; #Include .\hz\3.ahk
-; #Include .\hz\4.ahk
-; #Include .\hz\5.ahk
+#HotIf fxIsApp("code") && isText
+#Include .\hz\1.ahk
+#Include .\hz\2.ahk
+#Include .\hz\3.ahk
+#Include .\hz\4.ahk
+#Include .\hz\5.ahk
 
 #HotIf
