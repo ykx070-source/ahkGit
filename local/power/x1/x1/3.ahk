@@ -8,8 +8,11 @@ XButton1 & a:: {
 }
 XButton1 & s:: {
   Send("!as") ;アニメ登録
+  Send("{Enter}")
+  Send("!as") ;アニメ登録
   Send("{Down}")
   Send("{Enter}")
+  Send("!a") ;アニメ
 }
 XButton1 & d:: {
 }

@@ -1,7 +1,7 @@
 $esc:: {
   Send("{Escape}")
   Send("{Escape}")
-  Send("{Up}")
+  ; Send("{Up}")
   fxSlideShow("+!{f5}")
 }
 $f1:: {

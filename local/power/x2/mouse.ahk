@@ -14,7 +14,7 @@ XButton2 & WheelUp:: {
   ; Send("!hfg")
 }
 XButton2 & WheelDown:: {
-  Send("^+, f")
+  Send("^+,")
   ; Send("!hfk")
 }
 XButton2 & XButton1:: {
