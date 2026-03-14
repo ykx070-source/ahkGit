@@ -1,10 +1,10 @@
 Shift & LAlt:: {
+}
+Shift & sc7B:: {
   guiIme.Destroy()
 }
-Shift & space:: {
-}
 #SuspendExempt
-Shift & sc7B:: {
+Shift & space:: {
   global manualSuspend
   manualSuspend := !manualSuspend
   UpdateSuspend()

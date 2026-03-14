@@ -1,20 +1,16 @@
 #HotIf fxIsApp("POWERPNT")
-; sol
 #Include .\sol\sol.ahk
-; spc
+#Include .\alt\alt.ahk
 #Include .\spc\mouse.ahk
-; alt
-#Include .\alt\1.ahk
-#Include .\alt\2.ahk
-#Include .\alt\3.ahk
-#Include .\alt\4.ahk
-#Include .\alt\5.ahk
-; win
-#Include .\win\1.ahk
-#Include .\win\2.ahk
-#Include .\win\3.ahk
-#Include .\win\4.ahk
-; ctl
+#Include .\win\win.ahk
 #Include .\ctl\5.ahk
+#Include .\x2\mouse.ahk
+#Include .\x1\x1.ahk
+
+#HotIf fxIsClass("NUIDialog")
+#Include .\solNui\sol.ahk
+
+#HotIf isPresen
+#Include .\isPresen\isPresen.ahk
 
 #HotIf

@@ -9,7 +9,6 @@ XButton1 & x:: {
 }
 
 XButton1 & c:: {
-  fxVscodeJump("vscodeSub")
 }
 
 XButton1 & v:: {

@@ -2,8 +2,6 @@
 #Include .\vscode\vscodeSub.ahk
 #Include .\excel\excel.ahk
 #Include .\edge\edge.ahk
-#Include .\edge\edgeSub.ahk
 #Include .\vrew\vrew.ahk
 #Include .\power\power.ahk
-#Include .\power\powerSub.ahk
 #Include .\explorer\explorer.ahk

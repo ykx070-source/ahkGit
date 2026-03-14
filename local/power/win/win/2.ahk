@@ -11,6 +11,11 @@
   Send("{LButton down}")
   MouseMove(1075, 890, 0) ; 移動先
   Send("{LButton up}")
+  Sleep(10)
+  Send("!h") ;ホーム画面
+  Sleep(100)
+  Send("{esc}")
+  Send("{esc}")
 }
 #q:: {
 }

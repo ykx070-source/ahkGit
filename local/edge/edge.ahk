@@ -1,19 +1,18 @@
 #HotIf fxIsTitle("ChatGPT")
-#Include .\altChatgpt\1.ahk
-#Include .\altChatgpt\2.ahk
-#Include .\altChatgpt\3.ahk
+#Include .\chatgpt\chatgpt.ahk
+
 #HotIf fxIsTitle("YouTube")
-#Include .\x2Youtube\mouse.ahk
+#Include .\youtube\mouse.ahk
 
 #HotIf fxIsApp("msedge")
-; sol
 #Include .\sol\sol.ahk
-; alt
-#Include .\alt\1.ahk
-#Include .\alt\2.ahk
-#Include .\alt\3.ahk
-#Include .\alt\4.ahk
-#Include .\alt\5.ahk
+#Include .\alt\alt.ahk
 #Include .\x2\mouse.ahk
+
+#HotIf isWatch
+#Include .\isWatch\isWatch.ahk
+
+#HotIf fxIsApp("msedge") && isText
+#Include .\isText\isText.ahk
 
 #HotIf

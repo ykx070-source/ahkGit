@@ -10,10 +10,12 @@ XButton2 & RButton:: {
   Send "{LButton up}"
 }
 XButton2 & WheelUp:: {
-  Send("!hfg")
+  Send("^+.")
+  ; Send("!hfg")
 }
 XButton2 & WheelDown:: {
-  Send("!hfk")
+  Send("^+, f")
+  ; Send("!hfk")
 }
 XButton2 & XButton1:: {
   send("+!{p}") ;エクスプローラーにフォーカス
