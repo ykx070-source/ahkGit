@@ -20,3 +20,10 @@ $tab:: {
 $sc3A:: {
   send("{space}")
 }
+; mouse
+MButton:: {
+  fxMachine(
+    (*) => fxSleep(),
+    (*) => fxScreenOff()
+  )
+}
