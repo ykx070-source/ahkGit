@@ -1,7 +1,7 @@
 Shift & LAlt:: {
 }
 Shift & sc7B:: {
-  guiIme.Destroy()
+  guiImeHorizontal.Destroy()
 }
 #SuspendExempt
 Shift & space:: {
