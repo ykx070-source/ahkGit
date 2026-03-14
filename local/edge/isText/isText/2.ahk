@@ -3,6 +3,7 @@ $q:: {
 }
 $w:: {
   fxFalseText()
+  fxText("どこ")
 }
 $e:: {
   fxFalseText()
