@@ -10,8 +10,6 @@ Alt & tab:: {
   Send("^{a}")
 }
 Alt & q:: {
-  send("+!{p}") ;expFocus
 }
 Alt & w:: {
-  send("+!{y}") ;favorite
 }

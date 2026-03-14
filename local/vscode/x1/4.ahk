@@ -1,12 +1,11 @@
 XButton1 & Shift:: {
+  send("+!{p}") ;expFocus
 }
 
 XButton1 & z:: {
-  send("!jpaek") ;最背面
 }
 
 XButton1 & x:: {
-  send("!jpaeb") ;背面
 }
 
 XButton1 & c:: {
@@ -18,5 +17,4 @@ XButton1 & v:: {
 }
 
 XButton1 & b:: {
-  fxMoveB()
 }

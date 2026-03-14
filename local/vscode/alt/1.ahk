@@ -9,7 +9,4 @@ Alt & 1:: {
   send("+!{2}") ;複製
 }
 Alt & 2:: {
-  send("^!{Enter}")
-  Sleep(100)
-  send("{Enter}")
 }

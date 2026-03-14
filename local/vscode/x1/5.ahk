@@ -1,5 +1,5 @@
 XButton1 & LCtrl:: {
-  fxMoveLCtrl()
+  send("+!{o}") ;タスク
 }
 XButton1 & LWin:: {
 }

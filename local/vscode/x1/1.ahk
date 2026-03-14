@@ -1,8 +1,11 @@
-XButton1 & sc29:: {
-  send("#{Left}")
+fxX1HzVscode() {
+  send("^!{Enter}")
+  Sleep(100)
+  send("{Enter}")
 }
+XButton1 & sc29:: fxX1HzVscode()
+XButton1 & vkF4:: fxX1HzVscode()
 XButton1 & 1:: {
-  send("#{Right}")
 }
 XButton1 & 2:: {
 }
