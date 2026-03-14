@@ -4,7 +4,7 @@ XButton1 & WheelUp:: {
 XButton1 & WheelDown:: {
   send("{Volume_Down}")
 }
-XButton1 & XButton2:: {
+MButton:: {
   fxMachine(
     (*) => fxSleep(),
     (*) =>

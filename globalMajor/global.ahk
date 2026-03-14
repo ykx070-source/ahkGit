@@ -1,17 +1,13 @@
-; sol
 #Include .\sol\sol.ahk
-; spc
-#Include .\spc\0.ahk
-#Include .\spc\1.ahk
-#Include .\spc\2.ahk
-#Include .\spc\3.ahk
-#Include .\spc\4.ahk
-#Include .\spc\5.ahk
-#Include .\spc\mouse.ahk
-; muh
-#Include .\muh\1.ahk
-#Include .\muh\2.ahk
-#Include .\muh\3.ahk
-#Include .\muh\4.ahk
-#Include .\muh\5.ahk
-#Include .\muh\mouse.ahk
+#Include .\spc\spc.ahk
+#Include .\muh\muh.ahk
+#Include .\x2\x2.ahk
+#Include .\hnk\hnk.ahk
+#Include .\ctl\ctl.ahk
+#Include .\sft\sft.ahk
+#Include .\x1\mouse.ahk
+
+#HotIf isText
+#Include .\isText\isText.ahk
+
+#HotIf
