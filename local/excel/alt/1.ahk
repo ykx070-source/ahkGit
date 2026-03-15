@@ -1,5 +1,5 @@
 fxAltHzExcel() {
-  fxExcelFavo(1)
+  fxExcelReset("power")
 }
 
 Alt & sc29:: fxAltHzExcel()

@@ -1,13 +1,13 @@
 $LCtrl:: {
-  Send("{Down}")
+  fxFalseWatch()
+  Send("{Escape}")
+  Send("{Escape}")
 }
 $LWin:: {
 }
 $LAlt:: {
 }
-$sc7B:: {
-  fxFalseWatch()
-}
-$space:: {
-  send("{Space}")
-}
+; $sc7B:: {
+; }
+; $space:: {
+; }

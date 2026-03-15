@@ -18,6 +18,11 @@ XButton1 & d:: {
 }
 XButton1 & f:: {
   Send("!nzmvp") ;ファイル挿入
+  Sleep(300)
+  Send("{Tab}")
+  Send("{Down}")
+  Send("{Home}")
+  Send("{Enter}")
 }
 XButton1 & g:: {
 }

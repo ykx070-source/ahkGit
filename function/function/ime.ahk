@@ -24,14 +24,11 @@ fxTimerIme() {
   xPos := 0
   xPos := (!isImeOn) ? A_ScreenWidth / 2 : 0
   yPosi := (!isImeOn) ? A_ScreenHeight / 2 : 0
+  width := 11
   ; ===== 初回GUI生成 =====
   if (!isImeGuiMade) {
-    guiImeHorizontal := Gui("+AlwaysOnTop +ToolWindow -Caption")
-    guiImeVertical := Gui("+AlwaysOnTop +ToolWindow -Caption")
-    WinSetTransparent(80, guiImeHorizontal.Hwnd)
-    WinSetTransparent(80, guiImeVertical.Hwnd)
-    WinSetExStyle("+0x20", guiImeVertical.Hwnd)
-    WinSetExStyle("+0x20", guiImeHorizontal.Hwnd)
+    guiImeHorizontal := fxMakeImeGui()
+    guiImeVertical := fxMakeImeGui()
     DllCall("SystemParametersInfo", "uint", 0x57, "uint", 0, "ptr", 0, "uint", 0)
     isImeGuiMade := true
   }
@@ -40,8 +37,8 @@ fxTimerIme() {
     guiImeHorizontal.BackColor := bgColor
     guiImeVertical.BackColor := bgColor   ; ←追加
 
-    guiImeVertical.Show("x0 y" yPosi " w21 h5000 NA") ; 左下
-    guiImeHorizontal.Show("x" xPos " y0 w5000 h21 NA") ; 右上
+    guiImeVertical.Show("x0 y" yPosi " w" width " h5000 NA") ; 左下
+    guiImeHorizontal.Show("x" xPos " y0 w5000 h" width " NA") ; 右上
 
     prevBgColor := bgColor
     prevIsImeOn := isImeOn

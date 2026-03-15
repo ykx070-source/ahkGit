@@ -1,5 +1,5 @@
 $space:: {
   fxFalseText()
-  fxText('Sleep()')
+  fxText('Sleep(100)')
   Send("{Left}")
 }

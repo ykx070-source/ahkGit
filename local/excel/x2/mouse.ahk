@@ -1,3 +1,3 @@
 XButton2 & RButton:: {
-  fxExcelReset()
+  fxExcelReset("apex")
 }

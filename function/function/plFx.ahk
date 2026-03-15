@@ -40,24 +40,24 @@ fxMoveEdgeBookmark(No) {
   Send("{Enter}")   ; 開く
   Sleep(10)
 }
-fxExcelReset() {
+fxExcelReset(title) {
   send("{LButton}")
   sleep(10)
   send("{Esc}")
   sleep(10)
   send("^g")
   sleep(30)
-  fxText("apex!A1")
+  fxText(title "!A1")
   sleep(10)
   send("{Enter}")
   sleep(10)
 }
-fxExcelFavo(num) {
-  fxExcelReset()
-  loop num {
-    Send("^{PgUp}")
-  }
-}
+; fxExcelFavo(num) {
+;   fxExcelReset()
+;   loop num {
+;     Send("^{PgUp}")
+;   }
+; }
 fxAlwaysOnTop() {
   static overlay := 0
   static lastHwnd := 0
@@ -146,4 +146,10 @@ fxVscodeJump(fileName) {
   send("+!{4}") ;現在のファイルを表示する
   sleep(10)
   send("+!{3}") ;お気に入りを折り畳む
+}
+fxMakeImeGui() {
+  returnG := Gui("+AlwaysOnTop +ToolWindow -Caption")
+  WinSetTransparent(140, returnG.Hwnd)
+  WinSetExStyle("+0x20", returnG.Hwnd)
+  return returnG
 }

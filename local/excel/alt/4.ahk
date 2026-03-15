@@ -1,5 +1,5 @@
 Alt & Shift:: {
-  fxExcelFavo(4)
+  fxExcelReset("spc")
 }
 Alt & z:: {
 }

@@ -1,5 +1,4 @@
 $Shift:: {
-  Send("{Up}")
 }
 
 $z:: {
@@ -7,11 +6,11 @@ $z:: {
 }
 
 $x:: {
-  fxMoveX()
+  Send("{Down}")
 }
 
 $c:: {
-  send("{c}")
+  Send("{Up}")
 }
 
 $v:: {
@@ -19,5 +18,5 @@ $v:: {
 }
 
 $b:: {
-  fxMoveB()
+  send("{c}")
 }
