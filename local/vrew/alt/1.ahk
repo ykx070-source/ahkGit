@@ -9,11 +9,11 @@ Alt & sc29:: {
 Alt & vk19:: {
 }
 Alt & 1:: {
-  fxMoveEdgeBookmark(2)
+  fxEdgeFav(2)
 }
 Alt & 2:: {
-  fxMoveEdgeBookmark(4)
+  fxEdgeFav(4)
 }
 Alt & 3:: {
-  fxMoveEdgeBookmark(6)
+  fxEdgeFav(6)
 }

@@ -1,4 +1,5 @@
 Alt & tab:: {
+  Send("!hvr")
 }
 Alt & q:: {
 }

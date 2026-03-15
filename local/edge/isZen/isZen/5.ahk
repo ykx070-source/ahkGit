@@ -1,5 +1,5 @@
 $LCtrl:: {
-  fxToggleMode("watch")
+  fxToggleMode("zen")
   Send("{Escape}")
   Send("{Escape}")
 }

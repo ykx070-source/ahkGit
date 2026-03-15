@@ -2,8 +2,9 @@
 #Include .\function\ime.ahk
 #Include .\function\suspend.ahk
 ; fx
-#Include .\function\plFx.ahk
-#Include .\function\plFxToggle.ahk
+#Include .\function\plFxGlobal.ahk
+#Include .\function\plFxLocal.ahk
+#Include .\function\plFxBoolean.ahk
 #Include .\function\plFxHotif.ahk
 #Include .\function\plFxState.ahk
 ; group

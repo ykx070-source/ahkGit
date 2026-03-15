@@ -1,5 +1,5 @@
 $LCtrl:: {
-  fxFalsePresen()
+  fxToggleMode("presen")
   loop 4 {
     Send("{esc}")
   }

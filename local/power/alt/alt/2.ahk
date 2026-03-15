@@ -1,5 +1,7 @@
 Alt & tab:: {
-  Send("!hfc") ;テキスト色
+  Send("{esc}") ;マクロ表示
+  Send("{esc}")
+  Send("!{f8}")
 }
 Alt & q:: {
 }

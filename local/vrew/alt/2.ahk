@@ -7,11 +7,11 @@ Alt & tab:: {
   sleep(100)
 }
 Alt & q:: {
-  fxMoveEdgeBookmark(3)
+  fxEdgeFav(3)
 }
 Alt & w:: {
-  fxMoveEdgeBookmark(5)
+  fxEdgeFav(5)
 }
 Alt & e:: {
-  fxMoveEdgeBookmark(7)
+  fxEdgeFav(7)
 }

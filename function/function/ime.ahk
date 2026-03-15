@@ -18,7 +18,8 @@ fxTimerIme() {
     isWatch ? "FF0000"
       : isText ? "0000FF"
         : isPresen ? "00FF00"
-          : "FFFFAA"
+          : isZen ? "A855F7"
+            : "FFFFAA"
 
   isImeOn := fxIsImeOn()
   xPos := 0
