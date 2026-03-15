@@ -12,7 +12,7 @@ XButton1 & c:: {
 }
 
 XButton1 & v:: {
-  fxVscodeJump("vscode")
+  fxExcelReset("vscode")
 }
 
 XButton1 & b:: {
