@@ -1,5 +1,4 @@
 XButton1 & tab:: {
-  send("+!{y}") ;favorite
 }
 XButton1 & q:: {
 }

@@ -8,14 +8,14 @@ XButton1 & sc3A:: {
   send("+!{3}") ;お気に入りを折り畳む
 }
 XButton1 & a:: {
-  fxExcelReset("power")
+  fxVscodeJump("power")
 }
 XButton1 & s:: {
 }
 XButton1 & d:: {
 }
 XButton1 & f:: {
-  fxExcelReset("function")
+  fxVscodeJump("function")
 }
 XButton1 & g:: {
 }

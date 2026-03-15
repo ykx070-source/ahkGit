@@ -1,5 +1,4 @@
 Alt & sc3A:: {
-  fxExcelReset("muh")
 }
 Alt & a:: {
 }

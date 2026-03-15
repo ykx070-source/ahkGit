@@ -6,8 +6,8 @@ XButton1 & LWin:: {
 XButton1 & LAlt:: {
 }
 XButton1 & sc07B:: {
-  fxExcelReset("local")
+  fxExcelReset("muh")
 }
 XButton1 & space:: {
-  fxExcelReset("global")
+  fxExcelReset("spc")
 }

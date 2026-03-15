@@ -1,5 +1,4 @@
 Alt & Shift:: {
-  fxExcelReset("spc")
 }
 Alt & z:: {
 }

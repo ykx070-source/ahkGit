@@ -124,6 +124,23 @@ fxSlideShow(ac) {
   }
   isPresen := !isPresen
 }
+fxVscodeJump(fileName) {
+  ; send("+!{q}") ;close other tabs
+  ; sleep(10)
+  Send("^+p")
+  Send("{Backspace}")
+  SendText(fileName ".ahk")
+  Sleep(300)
+  Send("{Enter}")
+  Sleep(100)
+  send("+!{f}") ;エクスプローラーを折り畳む
+  sleep(10)
+  send("+!{f}") ;エクスプローラーを折り畳む
+  sleep(10)
+  send("+!{4}") ;現在のファイルを表示する
+  sleep(10)
+  send("+!{3}") ;お気に入りを折り畳む
+}
 fxMakeImeGui() {
   returnG := Gui("+AlwaysOnTop +ToolWindow -Caption")
   WinSetTransparent(140, returnG.Hwnd)

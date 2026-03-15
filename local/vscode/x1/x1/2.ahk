@@ -6,7 +6,7 @@ XButton1 & q:: {
 XButton1 & w:: {
 }
 XButton1 & e:: {
-  fxExcelReset("edge")
+  fxVscodeJump("edge")
 }
 XButton1 & r:: {
 }

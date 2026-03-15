@@ -1,5 +1,4 @@
 Alt & tab:: {
-  fxExcelReset("vscode")
 }
 Alt & q:: {
 }

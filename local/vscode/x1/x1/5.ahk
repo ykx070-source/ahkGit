@@ -6,8 +6,8 @@ XButton1 & LWin:: {
 XButton1 & LAlt:: {
 }
 XButton1 & sc07B:: {
-  fxExcelReset("local")
+  fxVscodeJump("local")
 }
 XButton1 & space:: {
-  fxExcelReset("global")
+  fxVscodeJump("global")
 }

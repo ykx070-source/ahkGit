@@ -15,7 +15,6 @@ XButton1 & s:: {
 XButton1 & d:: {
 }
 XButton1 & f:: {
-  fxExcelReset("function")
 }
 XButton1 & g:: {
 }
