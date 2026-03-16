@@ -29,4 +29,5 @@ XButton1 & f:: {
   Send("{Enter}")
 }
 XButton1 & g:: {
+  send("!jpvc") ;画像トリム
 }

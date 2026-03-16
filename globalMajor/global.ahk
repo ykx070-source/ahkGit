@@ -1,3 +1,9 @@
+#HotIf isText
+#Include .\isText\isText.ahk
+#HotIf isBracket
+#Include .\isBracket\isBracket.ahk
+
+#HotIf
 #Include .\sol\sol.ahk
 #Include .\spc\spc.ahk
 #Include .\muh\muh.ahk
@@ -6,8 +12,3 @@
 #Include .\ctl\ctl.ahk
 #Include .\sft\sft.ahk
 #Include .\x1\mouse.ahk
-
-#HotIf isText
-#Include .\isText\isText.ahk
-
-#HotIf

@@ -1,6 +1,5 @@
 #HotIf isPresen
 #Include .\isPresen\isPresen.ahk
-
 #HotIf fxIsClass("NUIDialog")
 #Include .\solNui\sol.ahk
 

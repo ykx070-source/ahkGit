@@ -1,8 +1,0 @@
-$e:: {
-  fxFalseText()
-  Send("!+{f5}")
-}
-$r:: {
-  fxFalseText()
-  Send("!{f5}")
-}

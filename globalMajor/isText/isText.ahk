@@ -1,21 +1,25 @@
 $1:: {
-  fxFalseText()
-  fxText("()")
+  fxToggleMode("bracket")
+  fxText("() ")
+  send("{Left}")
   send("{Left}")
 }
 $2:: {
-  fxFalseText()
-  fxText("<>")
+  fxToggleMode("bracket")
+  fxText("<> ")
+  send("{Left}")
   send("{Left}")
 }
 $3:: {
-  fxFalseText()
-  fxText("〖〗")
+  fxToggleMode("bracket")
+  fxText("〖〗 ")
+  send("{Left}")
   send("{Left}")
 }
 
 $4:: {
-  fxFalseText()
-  fxText("❰❱")
+  fxToggleMode("bracket")
+  fxText("❰❱ ")
+  send("{Left}")
   send("{Left}")
 }

@@ -16,6 +16,8 @@
   Sleep(100)
   Send("{esc}")
   Send("{esc}")
+
+  MouseMove(A_ScreenWidth / 2, A_ScreenHeight / 2, 0)
 }
 #q:: {
 }

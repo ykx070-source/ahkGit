@@ -3,7 +3,6 @@ Alt & sc3A:: {
   sleep(10)
 }
 Alt & a:: {
-  fxEdgeFav(4)
 }
 Alt & s:: {
 }

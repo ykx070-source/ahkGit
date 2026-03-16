@@ -9,11 +9,8 @@ Alt & sc29:: {
 Alt & vk19:: {
 }
 Alt & 1:: {
-  fxEdgeFav(2)
 }
 Alt & 2:: {
-  fxEdgeFav(4)
 }
 Alt & 3:: {
-  fxEdgeFav(6)
 }

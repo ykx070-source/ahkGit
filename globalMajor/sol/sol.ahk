@@ -1,8 +1,8 @@
 ; 0
-; $f1:: {
-; }
-; $f2:: {
-; }
+$f1:: {
+}
+$f2:: {
+}
 ; 1
 $sc29:: fxNoneHzGlobal()
 $vkF4:: fxNoneHzGlobal()

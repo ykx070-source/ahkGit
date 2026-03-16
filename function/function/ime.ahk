@@ -19,27 +19,30 @@ fxTimerIme() {
       : isText ? "0000FF"
         : isPresen ? "00FF00"
           : isZen ? "A855F7"
-            : "FFFFAA"
+            : isBracket ? "00FFFF"
+              : "FFFFAA"
+  ; FF8800（オレンジ）00FFFF（シアン）FF00FF（マゼンタ）FFD400（ゴールド）00AAFF（スカイブルー）
 
   isImeOn := fxIsImeOn()
   xPos := 0
-  xPos := (!isImeOn) ? A_ScreenWidth / 2 : 0
-  yPosi := (!isImeOn) ? A_ScreenHeight / 2 : 0
-  width := 11
-  ; ===== 初回GUI生成 =====
+  xPos := 0
+  vWidth := 11
+  hWidth := 8
+  yPosi := (isImeOn) ? A_ScreenWidth - vWidth : 0
+  ; 初回
   if (!isImeGuiMade) {
     guiImeHorizontal := fxMakeImeGui()
     guiImeVertical := fxMakeImeGui()
     DllCall("SystemParametersInfo", "uint", 0x57, "uint", 0, "ptr", 0, "uint", 0)
     isImeGuiMade := true
   }
-  ; ===== 更新用の条件付き =====
+  ; 更新
   if (bgColor != prevBgColor || isImeOn != prevIsImeOn) {
     guiImeHorizontal.BackColor := bgColor
     guiImeVertical.BackColor := bgColor   ; ←追加
 
-    guiImeVertical.Show("x0 y" yPosi " w" width " h5000 NA") ; 左下
-    guiImeHorizontal.Show("x" xPos " y0 w5000 h" width " NA") ; 右上
+    guiImeVertical.Show("x" yPosi " y" hWidth " w" vWidth " h5000 NA") ; 左下
+    guiImeHorizontal.Show("x0 y0 w5000 h" hWidth " NA") ; 右上
 
     prevBgColor := bgColor
     prevIsImeOn := isImeOn

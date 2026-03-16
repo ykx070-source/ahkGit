@@ -7,11 +7,8 @@ Alt & tab:: {
   sleep(100)
 }
 Alt & q:: {
-  fxEdgeFav(3)
 }
 Alt & w:: {
-  fxEdgeFav(5)
 }
 Alt & e:: {
-  fxEdgeFav(7)
 }

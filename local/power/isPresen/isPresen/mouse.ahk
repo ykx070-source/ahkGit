@@ -2,9 +2,12 @@
 ; }
 ; $LButton:: {
 ; }
-; $RButton:: {
-; }
-; WheelUp:: {
-; }
-; WheelDown:: {
-; }
+$RButton:: {
+  send("{e}")
+}
+WheelUp:: {
+  Send("{Left}")
+}
+WheelDown:: {
+  Send("{Right}")
+}

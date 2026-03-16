@@ -2,7 +2,7 @@ XButton1 & tab:: {
   fxMoveTab()
 }
 XButton1 & q:: {
-  fxMoveQ()
+  Send("!jpayh") ;反転
 }
 XButton1 & w:: {
 }
@@ -27,6 +27,11 @@ XButton1 & r:: {
     Send("!ae")
     Send("{Escape}")
   }
+
+  Send("{Escape}")
+  Send("!ade")
+  Send("0.01")
+  Send("{Enter}")
 
   Send("!a")
   Sleep(100)

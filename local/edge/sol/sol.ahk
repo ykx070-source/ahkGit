@@ -1,7 +1,7 @@
 $esc:: {
-    fxToggleMode("watch")
+  fxToggleMode("watch")
 }
 $LWin:: {
-    fxToggleMode("zen")
-    fxEdgeFav(4)
+  fxToggleMode("zen")
+  fxEdgeFav(3)
 }
