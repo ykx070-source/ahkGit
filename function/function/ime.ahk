@@ -24,11 +24,8 @@ fxTimerIme() {
   ; FF8800（オレンジ）00FFFF（シアン）FF00FF（マゼンタ）FFD400（ゴールド）00AAFF（スカイブルー）
 
   isImeOn := fxIsImeOn()
-  xPos := 0
-  xPos := 0
-  vWidth := 11
-  hWidth := 8
-  yPosi := (isImeOn) ? A_ScreenWidth - vWidth : 0
+  width := 8
+  yPosi := (isImeOn) ? A_ScreenWidth - width : 0
   ; 初回
   if (!isImeGuiMade) {
     guiImeHorizontal := fxMakeImeGui()
@@ -41,8 +38,8 @@ fxTimerIme() {
     guiImeHorizontal.BackColor := bgColor
     guiImeVertical.BackColor := bgColor   ; ←追加
 
-    guiImeVertical.Show("x" yPosi " y" hWidth " w" vWidth " h5000 NA") ; 左下
-    guiImeHorizontal.Show("x0 y0 w5000 h" hWidth " NA") ; 右上
+    guiImeVertical.Show("x" yPosi " y0 w" width " h5000 NA") ; 左下
+    guiImeHorizontal.Show("x0 y0 w5000 h" width " NA") ; 右上
 
     prevBgColor := bgColor
     prevIsImeOn := isImeOn
