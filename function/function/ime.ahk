@@ -4,19 +4,12 @@ global guiImeVertical := 0
 global prevBgColor := ""
 global prevIsImeOn := -1
 global isImeGuiMade := false
-SetTimer(fxTimerIme, 100)
-
-fxTimerIme() {
-
-  MouseGetPos(&x, &y)
-  fxMachine(
-    (*) => Suspend((y < 4 && x < 4) || manualSuspend),
-    (*) => 0
-  )
-
+SetTimer(fxHundred, 100)
+fxHundred() {
   global guiImeHorizontal, guiImeVertical, prevIsImeOn, prevBgColor, isImeGuiMade
 
-  try activeWindow := WinGetProcessName("A")
+  MouseGetPos(&x, &y)
+  fxMachine((*) => Suspend((y < 4 && x < 4) || manualSuspend), (*) => 0)
 
   bgColor :=
     isWatch ? "FF0000"
@@ -29,7 +22,7 @@ fxTimerIme() {
 
   isImeOn := fxIsImeOn()
   width := 8
-  yPosi := (isImeOn) ? A_ScreenWidth - width : 0
+  yPosi := (isImeOn) ? 0 : A_ScreenWidth - width
   ; 初回
   if (!isImeGuiMade) {
     guiImeHorizontal := fxMakeImeGui()
