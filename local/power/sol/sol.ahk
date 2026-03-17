@@ -1,8 +1,8 @@
-$esc:: {
-  fxPresen("!{f5}")
-}
+; $esc:: {
+; }
 $f1:: {
   fxPresen("+!{f5}")
 }
-; $f2:: {
-; }
+$f2:: {
+  fxPresen("!{f5}")
+}

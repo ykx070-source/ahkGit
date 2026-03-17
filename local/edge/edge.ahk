@@ -1,7 +1,5 @@
 #HotIf fxIsApp("msedge") && isText
 #Include .\isText\isText.ahk
-#HotIf fxIsApp("msedge") && isWatch
-#Include .\isWatch\isWatch.ahk
 #HotIf fxIsApp("msedge") && isZen
 #Include .\isZen\isZen.ahk
 

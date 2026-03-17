@@ -10,3 +10,6 @@ XButton1 & 3:: {
 }
 XButton1 & 4:: {
 }
+XButton1 & 5:: {
+  send("!jpvc") ;画像トリム
+}

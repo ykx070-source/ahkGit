@@ -17,6 +17,10 @@ fxImeOff() {
   if (isImeOn)
     send("{" codeObj["hankaku"] "}")
 }
+fxImeOffReload() {
+  fxImeOff()
+  Reload()
+}
 fxText(text) {
   isImeOn := fxIsImeOn()
   if (isImeOn) {
@@ -91,4 +95,15 @@ fxMakeImeGui() {
   WinSetTransparent(140, returnG.Hwnd)
   WinSetExStyle("+0x20", returnG.Hwnd)
   return returnG
+}
+fxClipboard(x) {
+  send("#{v}") ;back1
+  sleep(800)
+  loop x {
+    send("{Down}")
+    sleep(200)
+  }
+  sleep(200)
+  send("{Enter}")
+  sleep(10)
 }

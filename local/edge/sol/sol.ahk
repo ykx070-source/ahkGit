@@ -1,6 +1,5 @@
-$esc:: {
-  fxToggleMode("watch")
-}
+; $esc:: {
+; }
 $LWin:: {
   fxToggleMode("zen")
   fxEdgeFav(3)

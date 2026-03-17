@@ -1,7 +1,9 @@
 #HotIf isText
-#Include .\isText\isText.ahk
+#Include .\isText\1.ahk
 #HotIf isBracket
-#Include .\isBracket\isBracket.ahk
+#Include .\isBracket\5.ahk
+#HotIf isWatch
+#Include .\isWatch\isWatch.ahk
 
 #HotIf
 #Include .\sol\sol.ahk

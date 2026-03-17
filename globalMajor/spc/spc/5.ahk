@@ -2,14 +2,13 @@ space & LCtrl:: {
   send("{enter}")
 }
 space & LWin:: {
-  send("{F12}")
+  send("+{Enter}")
 }
 space & LAlt:: {
-  send("{F11}")
+  send("^{Enter}")
 }
 space & sc7B:: {
   send("{F2}")
 }
-
 space & sc79:: {
 }

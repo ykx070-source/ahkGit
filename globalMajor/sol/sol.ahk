@@ -1,4 +1,7 @@
 ; 0
+$esc:: {
+  fxToggleMode("watch")
+}
 $f1:: {
 }
 $f2:: {

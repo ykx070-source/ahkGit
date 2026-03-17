@@ -1,4 +1,5 @@
 #Shift:: {
+  Send("!hvt")
 }
 #z:: {
 }

@@ -18,5 +18,5 @@ XButton1 & v:: {
 }
 
 XButton1 & b:: {
-  fxMoveB()
+  send("^+g") ;グループ化解除
 }
