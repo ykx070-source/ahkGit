@@ -4,22 +4,26 @@ global guiImeVertical := 0
 global prevBgColor := ""
 global prevIsImeOn := -1
 global isImeGuiMade := false
+global isFour := false
+
 SetTimer(fxHundred, 100)
 fxHundred() {
-  global guiImeHorizontal, guiImeVertical, prevIsImeOn, prevBgColor, isImeGuiMade
+  global guiImeHorizontal, guiImeVertical, prevIsImeOn, prevBgColor, isImeGuiMade, isFour
 
   MouseGetPos(&x, &y)
   fxMachine((*) => Suspend((y < 4 && x < 4) || manualSuspend), (*) => 0)
 
-  bgColor :=
-    isWatch ? "FF0000"
-      : isText ? "0000FF"
-        : isPresen ? "00FF00"
-          : isZen ? "A855F7"
-            : isBracket ? "00FFFF"
-              : "FFFFAA"
-  ; FF8800（オレンジ）00FFFF（シアン）FF00FF（マゼンタ）FFD400（ゴールド）00AAFF（スカイブルー）
+  isFour := y < 4
 
+  bgColor :=
+    isFour ? "000000"
+      : isWatch ? "FF0000"
+        : isText ? "0000FF"
+          : isPresen ? "00FF00"
+            : isZen ? "A855F7"
+              : isBracket ? "00FFFF"
+                : "FFFFAA"
+  ; FF8800（オレンジ）00FFFF（シアン）FF00FF（マゼンタ）FFD400（ゴールド）00AAFF（スカイブルー）
   isImeOn := fxIsImeOn()
   width := 8
   yPosi := (isImeOn) ? 0 : A_ScreenWidth - width

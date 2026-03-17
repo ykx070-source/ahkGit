@@ -22,8 +22,5 @@ $sc3A:: {
 }
 ; mouse
 MButton:: {
-  fxMachine(
-    (*) => fxSleep(),
-    (*) => fxScreenOff()
-  )
+  fxSleepLightOff()
 }

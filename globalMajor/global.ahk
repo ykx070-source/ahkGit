@@ -1,5 +1,5 @@
 #HotIf isText
-#Include .\isText\1.ahk
+#Include .\isText\isText.ahk
 #HotIf isBracket
 #Include .\isBracket\5.ahk
 #HotIf isWatch

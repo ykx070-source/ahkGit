@@ -1,0 +1,3 @@
+$LCtrl:: {
+  fxToggleMode("text")
+}

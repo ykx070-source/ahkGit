@@ -1,8 +1,5 @@
     space & f1:: {
-      fxMachine(
-        (*) => fxSleep(),
-        (*) => fxScreenOff()
-      )
+      fxSleepLightOff()
     }
     space & f2:: {
       fxShutdown()

@@ -2,7 +2,6 @@
 #Include .\isText\isText.ahk
 #HotIf fxIsApp("msedge") && isZen
 #Include .\isZen\isZen.ahk
-
 #HotIf fxIsTitle("chatgpt")
 #Include .\chatgpt\chatgpt.ahk
 #HotIf fxIsTitle("youtube")

@@ -1,6 +1,5 @@
 ; SetTimer
-#Include .\function\ime.ahk
-#Include .\function\suspend.ahk
+#Include .\function\timer.ahk
 ; fx
 #Include .\function\plFxGlobal.ahk
 #Include .\function\plFxLocal.ahk

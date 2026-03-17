@@ -12,7 +12,7 @@ $x:: {
 }
 $c:: {
   fxFalseText()
-  fxText("うまくいかない")
+  fxText("意味")
 }
 $v:: {
   fxFalseText()

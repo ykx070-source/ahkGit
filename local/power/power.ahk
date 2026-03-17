@@ -3,6 +3,20 @@
 #HotIf fxIsClass("NUIDialog")
 #Include .\solNui\sol.ahk
 
+#HotIf fxIsApp("POWERPNT") && isFour
+a:: {
+  Send("!jpo")
+  Sleep(100)
+  Send("{Home}")
+  ; Send("{Home}")
+  ; Send("{Enter}")
+  ; Send("!as") ;アニメ登録
+  ; Send("{Down}")
+  ; Send("{Enter}")
+  ; Send("!a") ;アニメ
+}
+#HotIf
+
 #HotIf fxIsApp("POWERPNT")
 #Include .\sol\sol.ahk
 #Include .\alt\alt.ahk

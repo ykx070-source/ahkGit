@@ -4,6 +4,12 @@ fxMachine(fxD, fxS) {
   else if (A_ComputerName = "s")
     fxS()
 }
+fxSleepLightOff() {
+  fxMachine(
+    (*) => fxSleep(),
+    (*) => fxScreenOff()
+  )
+}
 fxIsImeOn() {
   try {
     vcurrentwindow := WinGetID("A")

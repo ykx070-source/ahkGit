@@ -1,5 +1,6 @@
 $sc3A:: {
   Send("{Enter}")
+  fxToggleMode("zen")
 }
 $a:: {
   Send("{Up}")
