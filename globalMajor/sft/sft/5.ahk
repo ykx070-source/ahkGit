@@ -8,6 +8,5 @@ Shift & sc7B:: {
 Shift & space:: {
   global manualSuspend
   manualSuspend := !manualSuspend
-  UpdateSuspend()
 }
 #SuspendExempt false

@@ -1,3 +1,4 @@
+global manualSuspend := false
 global guiImeHorizontal := 0
 global guiImeVertical := 0
 global prevBgColor := ""
@@ -5,11 +6,14 @@ global prevIsImeOn := -1
 global isImeGuiMade := false
 SetTimer(fxTimerIme, 100)
 
-ReStartImeTimer() {
-  SetTimer(fxTimerIme, 100)
-}
-
 fxTimerIme() {
+
+  MouseGetPos(&x, &y)
+  fxMachine(
+    (*) => Suspend((y < 4 && x < 4) || manualSuspend),
+    (*) => 0
+  )
+
   global guiImeHorizontal, guiImeVertical, prevIsImeOn, prevBgColor, isImeGuiMade
 
   try activeWindow := WinGetProcessName("A")
