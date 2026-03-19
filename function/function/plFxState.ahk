@@ -1,6 +1,9 @@
 fxSleep() {
   DllCall("PowrProf\SetSuspendState", "int", 0, "int", 0, "int", 0)
 }
+fxHibernate() {
+  DllCall("PowrProf\SetSuspendState", "int", 1, "int", 0, "int", 0)
+}
 fxShutdown() {
   Shutdown 1
 }

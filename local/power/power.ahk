@@ -5,11 +5,12 @@
 
 #HotIf fxIsApp("POWERPNT") && isFour
 a:: {
-  Send("!jpo")
+  Send("!jpsow")
   Sleep(100)
-  Send("{Home}")
-  ; Send("{Home}")
-  ; Send("{Enter}")
+  loop 7 {
+    Send("{Down}")
+  }
+  Send("{Enter}")
   ; Send("!as") ;アニメ登録
   ; Send("{Down}")
   ; Send("{Enter}")

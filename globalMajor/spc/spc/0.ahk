@@ -1,5 +1,5 @@
     space & f1:: {
-      fxSleepLightOff()
+      fxHibernate()
     }
     space & f2:: {
       fxShutdown()
